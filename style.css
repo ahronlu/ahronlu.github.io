@@ -54,7 +54,7 @@ a:hover {
   padding: 10px 0;
   position: relative;
   overflow: hidden;
-  margin: 10px 15px;
+  margin: 15px;
   width: 350px;
   text-align: center;
   display: flex;
@@ -63,7 +63,8 @@ a:hover {
 }
 
 .box:hover {
-  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+
 }
 
 .box > a img {
