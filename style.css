@@ -11,6 +11,16 @@ body {
   color: #444;
 }
 
+a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
 header {
   background-color: whitesmoke;
   border-radius: 5px;
@@ -27,7 +37,11 @@ header {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+/* header:hover {
+  transform: scale(1.1);
+} */
+
+header h1 {
   font-weight: 800;
   margin: 0;
   font-size: 26px;
@@ -37,14 +51,62 @@ header p {
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
+header .fa-linkedin {
+  color: #0077b5;
 }
 
-a:hover {
-  color: gray;
+header .fa-envelope {
+  color: #4a148c;
+}
+
+header .skills i {
+  margin: 0 1px;
+  font-size: 1.5em;
+}
+
+header .skills .fa-html5 {
+  color: #e34f26;
+}
+
+header .skills .fa-css3-alt {
+  color: #2965f1;
+}
+
+header .skills .fa-js-square {
+  color: #f0db4f;
+}
+
+header .skills .fa-node {
+  color: #6cc24a;
+}
+
+header .skills .fa-react {
+  color: #00d8ff;
+}
+
+header .skills .fa-git-square {
+  color: orangered;
+}
+
+header .skills .fa-sass {
+  color: #cc6699;
+}
+
+header .skills .fa-vuejs {
+  color: #42b883;
+}
+
+header .links {
+  display: flex;
+}
+
+header .links i {
+  margin: 0 2px;
+  font-size: 20px;
+}
+
+header br {
+  display: none;
 }
 
 .container {
@@ -160,16 +222,6 @@ div div .actions a {
   padding: 5px 40px;
 }
 
-div div .actions a:hover {
-  background: rgba(0, 0, 0, 0.25);
-  color: #444;
-  border-radius: 5px;
-}
-
-div div .actions a:active {
-  color: gray;
-}
-
 .box h2 {
   margin: 0;
 }
@@ -184,57 +236,15 @@ div div .actions a:active {
   margin-left: auto;
 }
 
-header .fa-linkedin {
-  color: #0077b5;
+div div .actions a:hover {
+  background: rgba(0, 0, 0, 0.25);
+  color: #444;
+  opacity: 1;
+  border-radius: 5px;
 }
 
-header .fa-envelope {
-  color: #4a148c;
-}
-
-header .fa-linkedin:hover, header .fa-envelope:hover {
-  opacity: 0.6;
-}
-
-header .skills i {
-  margin: 0 1px;
-  font-size: 1.5em;
-}
-header .skills .fa-html5 {
-  color: #e34f26;
-}
-header .skills .fa-css3-alt {
-  color: #2965f1;
-}
-header .skills .fa-js-square {
-  color: #f0db4f;
-}
-header .skills .fa-node {
-  color: #6cc24a;
-}
-header .skills .fa-react {
-  color: #00d8ff;
-}
-header .skills .fa-git-square {
-  color: orangered;
-}
-header .skills .fa-sass {
-  color: #cc6699;
-}
-header .skills .fa-vuejs {
-  color: #42b883;
-}
-header .links {
-  display: flex;
-}
-header .links i {
-  margin: 0 2px;
-  font-size: 20px;
-}
-
-
-header br {
-  display: none;
+div div .actions a:active {
+  color: gray;
 }
 
 @media only screen and (max-width: 600px) {
@@ -245,11 +255,6 @@ header br {
   header br {
     display: block;
   }
-
-  /* h1 {
-    font-size: 14px;
-    font-weight: bolder;
-  } */
 
   div div .actions a {
     padding: 5px 34px;
