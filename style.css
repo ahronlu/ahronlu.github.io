@@ -15,6 +15,7 @@ header {
   background-color: whitesmoke;
   border-radius: 5px;
   margin: 10px auto;
+  margin-top: 20px;
   max-width: 1110px;
   padding: 10px;
   text-align: left;
@@ -23,6 +24,7 @@ header {
   display: flex;
   border-top: 5px solid pink;
   border-bottom: 5px solid pink;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
