@@ -121,7 +121,7 @@ projects = [
     show: false,
     description:
       "A full stack app to track other friends around the globe using google maps API and firebase backend",
-    tags: "#Firebase #Firestore #Vue",
+    tags: "#Firebase #Firestore #Vue #Materialize",
   },
   {
     name: "Employee Manager",
@@ -129,7 +129,7 @@ projects = [
     url: "https://vue-koftov.web.app/",
     show: false,
     description: "Employee manager app built on Vue.js and FireStore",
-    tags: "#Firebase #Firestore #Vue",
+    tags: "#Firebase #Firestore #Vue #Materialize",
   },
   {
     name: "Koftov Smoothies",
@@ -138,7 +138,7 @@ projects = [
     show: false,
     description:
       "A simple CRUD project to learn the basics of vue, using firebase/firestore",
-    tags: "#Firebase #Firestore #Vue",
+    tags: "#Firebase #Firestore #Vue #Materialize",
   },
 
   {
@@ -147,7 +147,7 @@ projects = [
     url: "https://koftovchat.web.app",
     show: false,
     description: "VueJS & firebase realtime chat",
-    tags: "#Firebase #Firestore #Vue",
+    tags: "#Firebase #Firestore #Vue #Materialize",
   },
   {
     name: "Corona Crm",
@@ -156,7 +156,7 @@ projects = [
     show: false,
     description:
       "An app to track customers using vanilla js, Express server and MongoDB",
-    tags: "#MongoDB #Express #Node #VanilaJS",
+    tags: "#MongoDB #Express #Node #VanilaJS #Bootstrap",
   },
   {
     name: "Koftov Plan",
@@ -165,7 +165,7 @@ projects = [
     show: false,
     description:
       "A simple Project Management Web Application using React, Redux and Firebase",
-    tags: "#Firebase #Firestore #React #Redux",
+    tags: "#Firebase #Firestore #React #Redux #Materialize",
   },
   {
     name: "Github Finder",
@@ -173,7 +173,7 @@ projects = [
     url: "https://koftovgithubfinder.netlify.com/",
     show: false,
     description: "Search Github users - React hooks & context",
-    tags: "#React #ContextAPI #ReactHooks",
+    tags: "#React #ContextAPI #ReactHooks #Bootstrap",
   },
 
   {
@@ -182,7 +182,7 @@ projects = [
     url: "https://koftovimgfinder.netlify.com/",
     show: false,
     description: "React & Material UI image finder app using Pixabay API",
-    tags: "#React",
+    tags: "#React #MaterialUI",
   },
   {
     name: "Lyric finder",
@@ -191,6 +191,6 @@ projects = [
     show: false,
     description:
       "App that finds song lyrics using React and the Musixmatch API",
-    tags: "#React",
+    tags: "#React #Bootstrap",
   },
 ];
