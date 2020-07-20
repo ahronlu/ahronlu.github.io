@@ -54,7 +54,7 @@ a:hover {
   padding: 10px 0;
   position: relative;
   overflow: hidden;
-  margin: 15px;
+  margin: 10px 15px;
   width: 350px;
   text-align: center;
   display: flex;
@@ -84,7 +84,7 @@ chip {
   border-radius: 20px;
   padding: 5px;
   font-size: 10px;
-  margin: 2px 0;
+  margin: 1px 0;
 }
 
 chip:hover {
