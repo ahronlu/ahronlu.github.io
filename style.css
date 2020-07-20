@@ -188,8 +188,12 @@ header .fa-linkedin {
   color: #0077b5;
 }
 
-header .fa-linkedin:hover {
-  opacity: 0.8;
+header .fa-envelope {
+  color: #4a148c;
+}
+
+header .fa-linkedin:hover, header .fa-envelope:hover {
+  opacity: 0.6;
 }
 
 header .skills i {
