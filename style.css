@@ -56,7 +56,7 @@ header .fa-linkedin {
 }
 
 header .fa-envelope {
-  color: #4a148c;
+  color: #9c27b0;
 }
 
 header .skills i {
@@ -105,7 +105,7 @@ header .links i {
   font-size: 20px;
 }
 
-br {
+header br {
   display: none;
 }
 
