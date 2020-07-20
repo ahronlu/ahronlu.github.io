@@ -14,7 +14,7 @@ body {
 header {
   margin: 10px auto;
   max-width: 1140px;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   display: flex;
