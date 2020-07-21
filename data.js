@@ -175,7 +175,14 @@ projects = [
     description: "Search Github users - React hooks & context",
     tags: "#React #ContextAPI #ReactHooks #Bootstrap",
   },
-
+  {
+    name: "Github Jobs",
+    github: `https://github.com/koftov/github-jobs`,
+    url: "https://koftovgithubjobs.netlify.com/",
+    show: false,
+    description: "Search Github jobs",
+    tags: "#React #ReactHooks #ReactBootstrap",
+  },
   {
     name: "Image finder",
     github: `https://github.com/koftov/pixabay-image-finder`,
