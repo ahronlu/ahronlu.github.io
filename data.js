@@ -152,7 +152,7 @@ projects = [
   {
     name: "Corona Crm",
     github: `https://github.com/koftov/corona-crm`,
-    url: "https://koftov.github.io/corona-crm/public/",
+    url: "https://coronacrm.netlify.app/",
     show: false,
     description:
       "An app to track customers using vanilla js, Express server and MongoDB",
