@@ -200,7 +200,7 @@ projects = [
       "App that finds song lyrics using React and the Musixmatch API",
     tags: "#React #Bootstrap",
   },
-    {
+  {
     name: "BMI Calculator",
     github: `https://github.com/koftov/ionic-react-bmi-calculator`,
     url: "https://koftovbmi.netlify.app/",
@@ -208,5 +208,14 @@ projects = [
     description:
       "Simple BMI calculator build with ionic and react",
     tags: "#React #Ionic",
+  },
+  {
+    name: "Breaking Bad Cast",
+    github: `https://github.com/koftov/breaking-bad-cast`,
+    url: "https://koftov.github.io/breaking-bad-cast/",
+    show: false,
+    description:
+      "React app to show cast info for breaking bad",
+    tags: "#React",
   },
 ];
