@@ -200,4 +200,13 @@ projects = [
       "App that finds song lyrics using React and the Musixmatch API",
     tags: "#React #Bootstrap",
   },
+    {
+    name: "BMI Calculator",
+    github: `https://github.com/koftov/ionic-react-bmi-calculator`,
+    url: "https://koftovbmi.netlify.app/",
+    show: false,
+    description:
+      "Simple BMI calculator build with ionic and react",
+    tags: "#React #Ionic",
+  },
 ];
