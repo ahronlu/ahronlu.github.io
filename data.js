@@ -18,7 +18,7 @@ projects = [
   {
     name: "React Social App",
     github: `https://github.com/koftov/reactsocialfrontend`,
-    url: "https://koftovsocial.netlify.com/",
+    url: "https://koftovsocial.netlify.app/",
     show: true,
     description: "Social app using React hooks & use-immer",
     tags: "#React #ContextAPI #Bootstrap",
@@ -63,7 +63,7 @@ projects = [
   {
     name: "Social App",
     github: `https://github.com/koftov/merng-client`,
-    url: "https://kofbook.netlify.com/",
+    url: "https://kofbook.netlify.app/",
     show: false,
     description:
       "Social app using React hooks & context with GraphQL server and MongoDB",
@@ -90,7 +90,7 @@ projects = [
   {
     name: "Album Store",
     github: `https://github.com/koftov/album-store`,
-    url: "https://albumstore.netlify.com",
+    url: "https://albumstore.netlify.app",
     show: false,
     description: "React store app using context api, bootstrap and paypal",
     tags: "#React #Redux #PayPal",
@@ -170,7 +170,7 @@ projects = [
   {
     name: "Github Finder",
     github: `https://github.com/koftov/github-finder`,
-    url: "https://koftovgithubfinder.netlify.com/",
+    url: "https://koftovgithubfinder.netlify.app/",
     show: false,
     description: "Search Github users - React hooks & context",
     tags: "#React #ContextAPI #ReactHooks #Bootstrap",
@@ -178,7 +178,7 @@ projects = [
   {
     name: "Github Jobs",
     github: `https://github.com/koftov/github-jobs`,
-    url: "https://koftovgithubjobs.netlify.com/",
+    url: "https://koftovgithubjobs.netlify.app/",
     show: false,
     description: "Search Github jobs",
     tags: "#React #ReactHooks #ReactBootstrap",
@@ -186,7 +186,7 @@ projects = [
   {
     name: "Image finder",
     github: `https://github.com/koftov/pixabay-image-finder`,
-    url: "https://koftovimgfinder.netlify.com/",
+    url: "https://koftovimgfinder.netlify.app/",
     show: false,
     description: "React & Material UI image finder app using Pixabay API",
     tags: "#React #MaterialUI",
