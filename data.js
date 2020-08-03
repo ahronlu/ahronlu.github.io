@@ -31,7 +31,6 @@ projects = [
     description: "A real world backend for a bootcamp directory app",
     tags: "#MongoDB #Express #Node",
   },
-
   {
     name: "Koftov Places",
     github: `https://github.com/koftov/koftovplaces`,
@@ -159,13 +158,21 @@ projects = [
     tags: "#MongoDB #Express #Node #VanilaJS #Bootstrap",
   },
   {
-    name: "Koftov Plan",
-    github: `https://github.com/koftov/koftovplan`,
-    url: "https://koftovsplan.web.app/",
+    name: "Search Github Users",
+    github: `https://github.com/koftov/react-search-github-users`,
+    url: "https://ghuserssearch.netlify.app/",
     show: false,
     description:
-      "A simple Project Management Web Application using React, Redux and Firebase",
-    tags: "#Firebase #Firestore #React #Redux #Materialize",
+      "A react app to search for github users using fusioncharts and auth0",
+    tags: "#Auth0 #FusionCharts #React",
+  },
+  {
+    name: "Github Finder",
+    github: `https://github.com/koftov/github-finder`,
+    url: "https://koftovgithubfinder.netlify.app/",
+    show: false,
+    description: "Search Github users - React hooks & context",
+    tags: "#React #ContextAPI #ReactHooks #Bootstrap",
   },
   {
     name: "Github Finder",
