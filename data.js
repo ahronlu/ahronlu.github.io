@@ -219,7 +219,7 @@ projects = [
     tags: "#React",
   },
     {
-    name: "Giphy API",
+    name: "Giphy",
     github: `https://github.com/koftov/giphy`,
     url: "https://koftov.github.io/giphy",
     show: false,
