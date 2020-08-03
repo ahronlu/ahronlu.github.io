@@ -218,4 +218,14 @@ projects = [
       "React app to show cast info for breaking bad",
     tags: "#React",
   },
+    {
+    name: "Giphy API",
+    github: `https://github.com/koftov/giphy`,
+    url: "https://koftov.github.io/giphy",
+    show: false,
+    description:
+      "React app using Giphy API",
+    tags: "#React",
+  },
+  
 ];
