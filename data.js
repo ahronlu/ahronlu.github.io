@@ -175,14 +175,6 @@ projects = [
     tags: "#React #ContextAPI #ReactHooks #Bootstrap",
   },
   {
-    name: "Github Finder",
-    github: `https://github.com/koftov/github-finder`,
-    url: "https://koftovgithubfinder.netlify.app/",
-    show: false,
-    description: "Search Github users - React hooks & context",
-    tags: "#React #ContextAPI #ReactHooks #Bootstrap",
-  },
-  {
     name: "Github Jobs",
     github: `https://github.com/koftov/github-jobs`,
     url: "https://koftovgithubjobs.netlify.app/",
