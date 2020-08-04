@@ -86,6 +86,14 @@ projects = [
     tags: "#NextJS #SemanticUI #Stripe",
   },
   {
+    name: "Story Books",
+    github: `https://github.com/koftov/storybooks`,
+    url: "http://koftovstorybooks.herokuapp.com/",
+    show: false,
+    description: "Node.js app with Google OAuth",
+    tags: "#Node #Express #OAuth #Passport",
+  },
+  {
     name: "Album Store",
     github: `https://github.com/koftov/album-store`,
     url: "https://albumstore.netlify.app",
