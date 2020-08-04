@@ -232,7 +232,7 @@ projects = [
     url: "https://koftovcoinstar.netlify.app/",
     show: false,
     description:
-      "Cryptocurrency tracker react app",
+      "Cryptocurrency tracker",
     tags: "#React #ChartJS",
   }
 ];
