@@ -1,7 +1,7 @@
 projects = [
   {
     name: "Devconnector",
-    github: "https://github.com/koftov/devconnector",
+    github: `https://github.com/koftov/devconnector`,
     url: "https://koftovdevconnector.herokuapp.com/",
     show: true,
     description: "Social network for developers, built on the MERN stack",
@@ -9,7 +9,7 @@ projects = [
   },
   {
     name: "Koftov Clothing",
-    github: "https://github.com/koftov/koftov-clothing",
+    github: `https://github.com/koftov/koftov-clothing`,
     url: "https://koftov-clothing.herokuapp.com/",
     show: true,
     description: "Clothing shop using React & Redux with firebase server",
@@ -17,7 +17,7 @@ projects = [
   },
   {
     name: "React Social App",
-    github: "https://github.com/koftov/reactsocialfrontend",
+    github: `https://github.com/koftov/reactsocialfrontend`,
     url: "https://koftovsocial.netlify.app/",
     show: true,
     description: "Social app using React hooks & use-immer",
@@ -25,7 +25,7 @@ projects = [
   },
   {
     name: "Devcamper API",
-    github: "https://github.com/koftov/devcamper-api",
+    github: `https://github.com/koftov/devcamper-api`,
     url: "https://koftov-devcamper-api.herokuapp.com/",
     show: true,
     description: "A real world backend for a bootcamp directory app",
@@ -33,7 +33,7 @@ projects = [
   },
   {
     name: "Koftov Places",
-    github: "https://github.com/koftov/koftovplaces",
+    github: `https://github.com/koftov/koftovplaces`,
     url: "https://koftovplaces.web.app",
     show: true,
     description:
@@ -42,7 +42,7 @@ projects = [
   },
   {
     name: "Customer Manager",
-    github: "https://github.com/koftov/aharon-lubitsch-08-07-2020",
+    github: `https://github.com/koftov/aharon-lubitsch-08-07-2020`,
     url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
     description:
@@ -52,7 +52,7 @@ projects = [
   },
   {
     name: "Contact Keeper",
-    github: "https://github.com/koftov/contact-keeper",
+    github: `https://github.com/koftov/contact-keeper`,
     url: "https://koftovcontactkeeper.herokuapp.com/",
     show: false,
     description:
@@ -61,7 +61,7 @@ projects = [
   },
   {
     name: "Social App",
-    github: "https://github.com/koftov/merng-client",
+    github: `https://github.com/koftov/merng-client`,
     url: "https://kofbook.netlify.app/",
     show: false,
     description:
@@ -70,7 +70,7 @@ projects = [
   },
   {
     name: "Shopping List",
-    github: "https://github.com/koftov/shoppinglist",
+    github: `https://github.com/koftov/shoppinglist`,
     url: "https://koftovshoppinglist.herokuapp.com/",
     show: false,
     description:
@@ -79,7 +79,7 @@ projects = [
   },
   {
     name: "Furniture Store",
-    github: "https://github.com/koftov/furniture-store",
+    github: `https://github.com/koftov/furniture-store`,
     url: "https://koftovstore.herokuapp.com/",
     show: false,
     description: "Next JS store app using semantic ui and stripe",
@@ -87,7 +87,7 @@ projects = [
   },
   {
     name: "Album Store",
-    github: "https://github.com/koftov/album-store",
+    github: `https://github.com/koftov/album-store`,
     url: "https://albumstore.netlify.app",
     show: false,
     description: "React store app using context api, bootstrap and paypal",
@@ -95,7 +95,7 @@ projects = [
   },
   {
     name: "Expense Tracker",
-    github: "https://github.com/koftov/expense-tracker",
+    github: `https://github.com/koftov/expense-tracker`,
     url: "https://koftovexpensetracker.herokuapp.com",
     show: false,
     description:
@@ -104,7 +104,7 @@ projects = [
   },
   {
     name: "Devmeetups",
-    github: "https://github.com/koftov/devmeetups",
+    github: `https://github.com/koftov/devmeetups`,
     url: "https://devmeetupz.web.app",
     show: false,
     description:
@@ -113,7 +113,7 @@ projects = [
   },
   {
     name: "Geo Apes",
-    github: "https://github.com/koftov/geo-apes",
+    github: `https://github.com/koftov/geo-apes`,
     url: "https://geo-apes.web.app",
     show: false,
     description:
@@ -122,7 +122,7 @@ projects = [
   },
   {
     name: "Employee Manager",
-    github: "https://github.com/koftov/employee-manager",
+    github: `https://github.com/koftov/employee-manager`,
     url: "https://vue-koftov.web.app/",
     show: false,
     description: "Employee manager app built on Vue.js and FireStore",
@@ -130,7 +130,7 @@ projects = [
   },
   {
     name: "Koftov Smoothies",
-    github: "https://github.com/koftov/koftov-smoothies",
+    github: `https://github.com/koftov/koftov-smoothies`,
     url: "https://koftov-smoothies.web.app",
     show: false,
     description:
@@ -139,7 +139,7 @@ projects = [
   },
   {
     name: "Koftov Chat",
-    github: "https://github.com/koftov/koftovchat",
+    github: `https://github.com/koftov/koftovchat`,
     url: "https://koftovchat.web.app",
     show: false,
     description: "VueJS & firebase realtime chat",
@@ -147,7 +147,7 @@ projects = [
   },
   {
     name: "Corona Crm",
-    github: "https://github.com/koftov/corona-crm",
+    github: `https://github.com/koftov/corona-crm`,
     url: "https://coronacrm.netlify.app/",
     show: false,
     description:
@@ -156,7 +156,7 @@ projects = [
   },
   {
     name: "Search Github Users",
-    github: "https://github.com/koftov/react-search-github-users",
+    github: `https://github.com/koftov/react-search-github-users`,
     url: "https://ghuserssearch.netlify.app/",
     show: false,
     description:
@@ -165,7 +165,7 @@ projects = [
   },
   {
     name: "Github Finder",
-    github: "https://github.com/koftov/github-finder",
+    github: `https://github.com/koftov/github-finder`,
     url: "https://koftovgithubfinder.netlify.app/",
     show: false,
     description: "Search Github users - React hooks & context",
@@ -173,7 +173,7 @@ projects = [
   },
   {
     name: "Github Jobs",
-    github: "https://github.com/koftov/github-jobs",
+    github: `https://github.com/koftov/github-jobs`,
     url: "https://koftovgithubjobs.netlify.app/",
     show: false,
     description: "Search Github jobs",
@@ -181,7 +181,7 @@ projects = [
   },
   {
     name: "Image finder",
-    github: "https://github.com/koftov/pixabay-image-finder",
+    github: `https://github.com/koftov/pixabay-image-finder`,
     url: "https://koftovimgfinder.netlify.app/",
     show: false,
     description: "React & Material UI image finder app using Pixabay API",
@@ -189,7 +189,7 @@ projects = [
   },
   {
     name: "Lyric finder",
-    github: "https://github.com/koftov/lyricfinder",
+    github: `https://github.com/koftov/lyricfinder`,
     url: "https://koftovlyricfinder.netlify.app/",
     show: false,
     description:
@@ -198,7 +198,7 @@ projects = [
   },
   {
     name: "BMI Calculator",
-    github: "https://github.com/koftov/ionic-react-bmi-calculator",
+    github: `https://github.com/koftov/ionic-react-bmi-calculator`,
     url: "https://koftovbmi.netlify.app/",
     show: false,
     description:
@@ -207,7 +207,7 @@ projects = [
   },
   {
     name: "Breaking Bad Cast",
-    github: "https://github.com/koftov/breaking-bad-cast",
+    github: `https://github.com/koftov/breaking-bad-cast`,
     url: "https://koftov.github.io/breaking-bad-cast/",
     show: false,
     description:
@@ -216,7 +216,7 @@ projects = [
   },
   {
     name: "Giphy",
-    github: "https://github.com/koftov/giphy",
+    github: `https://github.com/koftov/giphy`,
     url: "https://koftov.github.io/giphy",
     show: false,
     description:
@@ -239,6 +239,6 @@ projects = [
     show: false,
     description:
       "React app fetched to chuck norris jokes API with uses react hookes and material-ui",
-    tags: "#React #MaterialUI",
+    tags: "#React #MaterialUI #",
   }
 ];
