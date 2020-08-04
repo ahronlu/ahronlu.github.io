@@ -239,13 +239,13 @@ projects = [
     tags: "#React #MaterialUI",
   },
   {
-    name: "Koftovgram",
-    github: "https://github.com/koftov/koftovgram",
-    url: "https://koftovgram.web.app/",
+    name: "Frontend Mentor Challenges",
+    github: "https://github.com/koftov/frontend-mentor-challenges",
+    url: "https://koftov.github.io/frontend-mentor-challenges",
     show: false,
     description:
-      "Gallery React app using Firebase & Framer Motion",
-    tags: "#React #FramerMotion #Firebase",
+      "CSS challenges",
+    tags: "#CSS #HTML",
   },
   {
     name: "Chuck Norris Jokes",
