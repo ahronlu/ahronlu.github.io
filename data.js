@@ -228,6 +228,16 @@ projects = [
     description: "Cryptocurrency tracker",
     tags: "#React #ChartJS",
   },
+  
+  {
+    name: "React Colors",
+    github: "https://github.com/koftov/react-colors",
+    url: "https://koftovreactcolors.netlify.app/",
+    show: false,
+    description:
+      "React colors picker app using material-ui",
+    tags: "#React #MaterialUI",
+  },
   {
     name: "Chuck Norris Jokes",
     github: "https://github.com/koftov/chucknorrisjokes",
@@ -235,6 +245,6 @@ projects = [
     show: false,
     description:
       "React app fetched to chuck norris jokes API with uses react hookes and material-ui",
-    tags: "#React #MaterialUI #",
+    tags: "#React #MaterialUI",
   },
 ];
