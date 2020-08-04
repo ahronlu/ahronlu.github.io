@@ -239,6 +239,15 @@ projects = [
     tags: "#React #MaterialUI",
   },
   {
+    name: "Koftovgram",
+    github: "https://github.com/koftov/koftovgram",
+    url: "https://koftovgram.web.app/",
+    show: false,
+    description:
+      "Gallery React app using Firebase & Framer Motion",
+    tags: "#React #FramerMotion #Firebase",
+  },
+  {
     name: "Chuck Norris Jokes",
     github: "https://github.com/koftov/chucknorrisjokes",
     url: "https://koftov.github.io/chucknorrisjokes",
