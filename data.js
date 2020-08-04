@@ -91,7 +91,7 @@ projects = [
     url: "http://koftovstorybooks.herokuapp.com/",
     show: false,
     description: "Node.js app with Google OAuth",
-    tags: "#Node #Express #OAuth #Passport",
+    tags: "#MongoDB #EJS #Express #Node #OAuth #Passport",
   },
   {
     name: "Album Store",
