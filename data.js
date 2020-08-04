@@ -217,7 +217,7 @@ projects = [
       "React app to show cast info for breaking bad",
     tags: "#React",
   },
-    {
+  {
     name: "Giphy",
     github: `https://github.com/koftov/giphy`,
     url: "https://koftov.github.io/giphy",
@@ -226,5 +226,13 @@ projects = [
       "React app using Giphy API",
     tags: "#React",
   },
-  
+  {
+    name: "Coinstar",
+    github: `https://github.com/koftov/cryptocurrency-tracker`,
+    url: "https://koftovcoinstar.netlify.app/",
+    show: false,
+    description:
+      "Cryptocurrency tracker react app",
+    tags: "#React #ChartJS",
+  }
 ];
