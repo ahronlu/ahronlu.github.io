@@ -201,8 +201,7 @@ projects = [
     github: `https://github.com/koftov/ionic-react-bmi-calculator`,
     url: "https://koftovbmi.netlify.app/",
     show: false,
-    description:
-      "Simple BMI calculator build with ionic and react",
+    description: "Simple BMI calculator build with ionic and react",
     tags: "#React #Ionic",
   },
   {
@@ -210,8 +209,7 @@ projects = [
     github: `https://github.com/koftov/breaking-bad-cast`,
     url: "https://koftov.github.io/breaking-bad-cast/",
     show: false,
-    description:
-      "React app to show cast info for breaking bad",
+    description: "React app to show cast info for breaking bad",
     tags: "#React",
   },
   {
@@ -219,8 +217,7 @@ projects = [
     github: `https://github.com/koftov/giphy`,
     url: "https://koftov.github.io/giphy",
     show: false,
-    description:
-      "React app using Giphy API",
+    description: "React app using Giphy API",
     tags: "#React",
   },
   {
@@ -228,17 +225,16 @@ projects = [
     github: "https://github.com/koftov/cryptocurrency-tracker",
     url: "https://koftovcoinstar.netlify.app/",
     show: false,
-    description:
-      "Cryptocurrency tracker",
+    description: "Cryptocurrency tracker",
     tags: "#React #ChartJS",
   },
   {
     name: "Chuck Norris Jokes",
-    github: "https://github.com/koftov/chucknorrisjokes',
+    github: "https://github.com/koftov/chucknorrisjokes",
     url: "https://koftov.github.io/chucknorrisjokes",
     show: false,
     description:
       "React app fetched to chuck norris jokes API with uses react hookes and material-ui",
     tags: "#React #MaterialUI #",
-  }
+  },
 ];
