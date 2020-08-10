@@ -59,6 +59,10 @@ header .fa-envelope {
   color: #9c27b0;
 }
 
+header .fa-github {
+  color: #4267b2;
+}
+
 header .skills i {
   margin: 0 1px;
   font-size: 1.5em;
