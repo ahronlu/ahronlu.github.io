@@ -188,6 +188,14 @@ projects = [
     tags: "#React #ReactHooks #ReactBootstrap",
   },
   {
+    name: "Hacker News",
+    github: `https://github.com/koftov/hacker-news",
+    url: "https://hacker-new.netlify.app/",
+    show: false,
+    description: "Hacker News clone",
+    tags: "#React #ReactHooks #Axios #HackerNews",
+  },
+  {
     name: "Image finder",
     github: `https://github.com/koftov/pixabay-image-finder`,
     url: "https://koftovimgfinder.netlify.app/",
