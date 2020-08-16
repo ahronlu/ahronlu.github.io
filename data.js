@@ -189,7 +189,7 @@ projects = [
   },
   {
     name: "Hacker News",
-    github: `https://github.com/koftov/hacker-news",
+    github: "https://github.com/koftov/hacker-news",
     url: "https://hacker-new.netlify.app/",
     show: false,
     description: "Hacker News clone",
