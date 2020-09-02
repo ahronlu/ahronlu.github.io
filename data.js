@@ -110,6 +110,15 @@ projects = [
       "Full Stack Expense tracker using React hooks & context with Express server and MongoDB",
     tags: "#MongoDB #Express #Node #React #ContextAPI",
   },
+    {
+    name: "Koftov Plan",
+    github: `https://github.com/koftov/koftovplan`,
+    url: "https://koftovsplan.web.app/",
+    show: false,
+    description:
+      "A simple Project Management Web Application using React, Redux and Firebase.",
+    tags: #Firebase #Firestore #React #Redux",
+  },
   {
     name: "Devmeetups",
     github: `https://github.com/koftov/devmeetups`,
