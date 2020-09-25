@@ -125,7 +125,7 @@ projects = [
     url: "http://koftovreactchat.web.app/",
     show: false,
     description: "Realtime chat app with react and firebase",
-    tags: "#React #Firebase  #Firestore",
+    tags: "#React #Firebase #Firestore",
   },
   {
     name: "Devmeetups",
