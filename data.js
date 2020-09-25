@@ -120,6 +120,14 @@ projects = [
     tags: "#Firebase #Firestore #React #Redux",
   },
   {
+    name: "React Firebase Chat",
+    github: `https://github.com/koftov/reactfirebasechat`,
+    url: "http://koftovreactchat.web.app/",
+    show: false,
+    description: "Realtime chat app with react and firebase",
+    tags: "#React #Firebase  #Firestore",
+  },
+  {
     name: "Devmeetups",
     github: `https://github.com/koftov/devmeetups`,
     url: "https://devmeetupz.web.app",
