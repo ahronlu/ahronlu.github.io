@@ -143,7 +143,7 @@ projects = [
     show: false,
     description:
       "Product hunt clone using ionic-react",
-    tags: "#Firebase #Firestore #Firebase-Storage #React",
+    tags: "#Ionic #Firebase #Firestore #Firebase-Storage #React",
   },
   {
     name: "Links",
@@ -152,7 +152,7 @@ projects = [
     show: false,
     description:
       "Hacker News clone using ionic-react and firebase and firestore",
-    tags: "#Firebase #Firestore #React",
+    tags: "#Ionic #Firebase #Firestore #React",
   },
   {
     name: "Geo Apes",
