@@ -137,6 +137,24 @@ projects = [
     tags: "#Firebase #Firestore #Vue #Vuetify",
   },
   {
+    name: "Hunt",
+    github: `https://github.com/koftov/hunt`,
+    url: "https://koftov-hunt.web.app",
+    show: false,
+    description:
+      "Product hunt clone using ionic-react",
+    tags: "#Firebase #Firestore #Firebase-Storage #React",
+  },
+  {
+    name: "Links",
+    github: `https://github.com/koftov/koftov-links`,
+    url: "https://koftov-links.web.app",
+    show: false,
+    description:
+      "Hacker News clone using ionic-react and firebase and firestore",
+    tags: "#Firebase #Firestore #React",
+  },
+  {
     name: "Geo Apes",
     github: `https://github.com/koftov/geo-apes`,
     url: "https://geo-apes.web.app",
@@ -238,6 +256,14 @@ projects = [
     tags: "#React #Ionic",
   },
   {
+    name: "Movies",
+    github: `https://github.com/koftov/koftov-movies`,
+    url: "https://koftov-movies.netlify.app/",
+    show: false,
+    description: "React movies app using themoviedb API",
+    tags: "#React",
+  },
+  {
     name: "Breaking Bad Cast",
     github: `https://github.com/koftov/breaking-bad-cast`,
     url: "https://koftov.github.io/breaking-bad-cast/",
@@ -260,8 +286,7 @@ projects = [
     show: false,
     description: "Cryptocurrency tracker",
     tags: "#React #ChartJS",
-  },
-  
+  },  
   {
     name: "React Colors",
     github: "https://github.com/koftov/react-colors",
