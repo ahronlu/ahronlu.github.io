@@ -94,14 +94,6 @@ projects = [
     tags: "#MongoDB #EJS #Express #Node #OAuth #Passport",
   },
   {
-    name: "Album Store",
-    github: `https://github.com/koftov/album-store`,
-    url: "https://albumstore.netlify.app",
-    show: false,
-    description: "React store app using context api, bootstrap and paypal",
-    tags: "#React #Redux #PayPal",
-  },
-  {
     name: "Expense Tracker",
     github: `https://github.com/koftov/expense-tracker`,
     url: "https://koftovexpensetracker.herokuapp.com",
@@ -120,6 +112,23 @@ projects = [
     tags: "#Firebase #Firestore #React #Redux",
   },
   {
+    name: "Hunt",
+    github: `https://github.com/koftov/hunt`,
+    url: "https://koftov-hunt.web.app",
+    show: false,
+    description: "Product hunt clone using ionic-react",
+    tags: "#Ionic #Firebase #Firestore #Firebase-Storage #React",
+  },
+  {
+    name: "Links",
+    github: `https://github.com/koftov/koftov-links`,
+    url: "https://koftov-links.web.app",
+    show: false,
+    description:
+      "Hacker News clone using ionic-react and firebase and firestore",
+    tags: "#Ionic #Firebase #Firestore #React",
+  },
+  {
     name: "React Firebase Chat",
     github: `https://github.com/koftov/reactfirebasechat`,
     url: "http://koftovreactchat.web.app/",
@@ -135,24 +144,6 @@ projects = [
     description:
       "A full stack meetups app using Vue, Vuex, Veutify and Firebase server",
     tags: "#Firebase #Firestore #Vue #Vuetify",
-  },
-  {
-    name: "Hunt",
-    github: `https://github.com/koftov/hunt`,
-    url: "https://koftov-hunt.web.app",
-    show: false,
-    description:
-      "Product hunt clone using ionic-react",
-    tags: "#Ionic #Firebase #Firestore #Firebase-Storage #React",
-  },
-  {
-    name: "Links",
-    github: `https://github.com/koftov/koftov-links`,
-    url: "https://koftov-links.web.app",
-    show: false,
-    description:
-      "Hacker News clone using ionic-react and firebase and firestore",
-    tags: "#Ionic #Firebase #Firestore #React",
   },
   {
     name: "Geo Apes",
@@ -286,23 +277,29 @@ projects = [
     show: false,
     description: "Cryptocurrency tracker",
     tags: "#React #ChartJS",
-  },  
+  },
   {
     name: "React Colors",
     github: "https://github.com/koftov/react-colors",
     url: "https://koftovreactcolors.netlify.app/",
     show: false,
-    description:
-      "React colors picker app using material-ui",
+    description: "React colors picker app using material-ui",
     tags: "#React #MaterialUI",
+  },
+  {
+    name: "Album Store",
+    github: `https://github.com/koftov/album-store`,
+    url: "https://albumstore.netlify.app",
+    show: false,
+    description: "React store app using context api, bootstrap and paypal",
+    tags: "#React #Redux #PayPal",
   },
   {
     name: "Frontend Mentor Challenges",
     github: "https://github.com/koftov/frontend-mentor-challenges",
     url: "https://koftov.github.io/frontend-mentor-challenges",
     show: false,
-    description:
-      "CSS challenges",
+    description: "CSS challenges",
     tags: "#CSS #HTML",
   },
   {
