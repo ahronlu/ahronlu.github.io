@@ -16,12 +16,13 @@ projects = [
     tags: "#MongoDB #Express #React #Node #Redux #Bootstrap",
   },
   {
-    name: "Koftov Clothing",
-    github: `https://github.com/koftov/koftov-clothing`,
-    url: "https://koftov-clothing.herokuapp.com/",
+    name: "Customer Manager",
+    github: `https://github.com/koftov/aharon-lubitsch-08-07-2020`,
+    url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
-    description: "Clothing shop using React & Redux with firebase server",
-    tags: "#Firebase #Firestore #Stripe #React #Redux",
+    description: "Contact manager app, build with MERN and Typescript",
+    tags:
+      "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI",
   },
   {
     name: "React Social App",
@@ -48,13 +49,12 @@ projects = [
     tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks",
   },
   {
-    name: "Customer Manager",
-    github: `https://github.com/koftov/aharon-lubitsch-08-07-2020`,
-    url: "http://aharonlubitsch.herokuapp.com/",
+    name: "Koftov Clothing",
+    github: `https://github.com/koftov/koftov-clothing`,
+    url: "https://koftov-clothing.herokuapp.com/",
     show: true,
-    description: "Contact manager app, build with MERN and Typescript",
-    tags:
-      "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI",
+    description: "Clothing shop using React & Redux with firebase server",
+    tags: "#Firebase #Firestore #Stripe #React #Redux",
   },
   {
     name: "Contact Keeper",
