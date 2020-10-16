@@ -1,11 +1,19 @@
 projects = [
   {
+    name: "Proshop",
+    github: `https://github.com/koftov/proshop`,
+    url: "https://koftovproshop.herokuapp.com/",
+    show: true,
+    description: "Shopping cart built with MERN & Redux",
+    tags: "#MongoDB #Express #React #Node #Redux #ReactReduxHooks #Bootstrap",
+  },
+  {
     name: "Devconnector",
     github: `https://github.com/koftov/devconnector`,
     url: "https://koftovdevconnector.herokuapp.com/",
     show: true,
-    description: "Social network for developers, built on the MERN stack",
-    tags: "#MongoDB #Express #Node #React #Redux #Bootstrap",
+    description: "Social network for developers, built with MERN & Redux",
+    tags: "#MongoDB #Express #React #Node #Redux #Bootstrap",
   },
   {
     name: "Koftov Clothing",
@@ -36,8 +44,7 @@ projects = [
     github: `https://github.com/koftov/koftovplaces`,
     url: "https://koftovplaces.web.app",
     show: true,
-    description:
-      "A React app using context API, React hooks, Express for the server and MongoDB",
+    description: "Places sharing app, built with MERN",
     tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks",
   },
   {
@@ -45,8 +52,7 @@ projects = [
     github: `https://github.com/koftov/aharon-lubitsch-08-07-2020`,
     url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
-    description:
-      "Contact manager using React hooks & context with Express server and MongoDB",
+    description: "Contact manager app, build with MERN and Typescript",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI",
   },
@@ -55,8 +61,7 @@ projects = [
     github: `https://github.com/koftov/contact-keeper`,
     url: "https://koftovcontactkeeper.herokuapp.com/",
     show: false,
-    description:
-      "Contact manager using React hooks & context with Express server and MongoDB",
+    description: "Contact manager app, build with MERN",
     tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Bootstrap",
   },
   {
