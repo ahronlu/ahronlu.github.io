@@ -142,6 +142,15 @@ projects = [
     tags: "#React #Firebase #Firestore",
   },
   {
+    name: "Netflix",
+    github: `https://github.com/koftov/netflix`,
+    url: "http://koftov-netflix.web.app/",
+    show: false,
+    description:
+      "Netflix clone built with react and firebase using styled-components",
+    tags: "#React #Firebase #Firestore #Styled-Components",
+  },
+  {
     name: "Devmeetups",
     github: `https://github.com/koftov/devmeetups`,
     url: "https://devmeetupz.web.app",
