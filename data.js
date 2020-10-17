@@ -17,10 +17,10 @@ projects = [
   },
   {
     name: "Customer Manager",
-    github: `https://github.com/koftov/aharon-lubitsch-08-07-2020`,
+    github: `https://github.com/koftov/customer-manager`,
     url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
-    description: "Contact manager app, build with MERN and Typescript",
+    description: "Customer manager app, build with MERN and Typescript",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI",
   },
