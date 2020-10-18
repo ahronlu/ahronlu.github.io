@@ -5,7 +5,8 @@ projects = [
     url: "https://koftovproshop.herokuapp.com/",
     show: true,
     description: "Shopping cart built with MERN & Redux",
-    tags: "#MongoDB #Express #React #Node #Redux #ReactReduxHooks #Bootstrap",
+    tags:
+      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #Bootstrap",
   },
   {
     name: "Devconnector",
