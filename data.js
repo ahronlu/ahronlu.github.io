@@ -13,7 +13,7 @@ projects = [
     url: "https://koftovdevconnector.herokuapp.com/",
     show: true,
     description: "Social network for developers, built with MERN & Redux",
-    tags: "#MongoDB #Express #React #Node #Redux #Bootstrap",
+    tags: "#MongoDB #Express #React #Node #Redux #Bootstrap #PWA",
   },
   {
     name: "Customer Manager",
@@ -122,7 +122,7 @@ projects = [
     url: "https://koftov-hunt.web.app",
     show: false,
     description: "Product hunt clone using ionic-react",
-    tags: "#Ionic #Firebase #Firestore #Firebase-Storage #React",
+    tags: "#Ionic #Firebase #Firestore #Firebase-Storage #React #PWA",
   },
   {
     name: "Links",
@@ -131,7 +131,7 @@ projects = [
     show: false,
     description:
       "Hacker News clone using ionic-react and firebase and firestore",
-    tags: "#Ionic #Firebase #Firestore #React",
+    tags: "#Ionic #Firebase #Firestore #React #PWA",
   },
   {
     name: "React Firebase Chat",
