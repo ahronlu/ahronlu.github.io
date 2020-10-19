@@ -214,11 +214,11 @@ projects = [
   },
   {
     name: "Github Finder",
-    github: `https://github.com/koftov/github-finder`,
-    url: "https://koftovgithubfinder.netlify.app/",
+    github: `https://github.com/koftov/githubfinder`,
+    url: "https://ggithubfinder.netlify.app/",
     show: false,
     description: "Search Github users - React hooks & context",
-    tags: "#React #ContextAPI #ReactHooks #Bootstrap",
+    tags: "#React #ContextAPI #ReactHooks #Bootstrap #PWA",
   },
   {
     name: "Github Jobs",
