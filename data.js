@@ -115,7 +115,7 @@ projects = [
     show: false,
     description:
       "A simple Project Management Web Application using React, Redux and Firebase.",
-    tags: "#Firebase #Firestore #React #Redux",
+    tags: "#Firebase #Firestore #React #Redux #PWA",
   },
   {
     name: "Hunt",
