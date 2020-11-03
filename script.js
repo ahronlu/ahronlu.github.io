@@ -1,6 +1,14 @@
 const container = document.querySelector(".container");
+const toggleBtn = document.querySelector("#toggle");
+let dark = false;
 
-for (let i = 0; i <= projects.length; i++) {
+toggleBtn.addEventListener("click", () => {
+  dark = !dark;
+  toggleBtn.classList = dark ? "fas fa-sun" : "fas fa-moon";
+  document.body.classList.toggle("dark-mode");
+});
+
+for (let i = 0; i < projects.length; i++) {
   container.innerHTML += `<div class="box" title='${projects[i].description}'>
   <a target="_blank" href=${projects[i].url}>
         <h2>${projects[i].name}</h2></a><a target="_blank" href=${
@@ -17,8 +25,6 @@ for (let i = 0; i <= projects.length; i++) {
         <a target="_blank" href=${projects[i].github}>
         <i class="fab fa-github"></i> Github
         </a></div>
-
-
         </div>`;
 }
 

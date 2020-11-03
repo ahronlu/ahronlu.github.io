@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: lightcyan;
+  background-color: #f2f3f5;
   font-family: "Poppins", sans-serif;
   color: #444;
 }
@@ -272,6 +272,31 @@ div div .actions a:active {
     margin: 20px 15px 10px 15px;
   }
 
-  header p{
+  header p {
     font-size: 10px;
   }
+}
+
+.dark-mode {
+  background-color: #1c1e21;
+}
+
+.dark-mode header,
+.dark-mode .box,
+.dark-mode a {
+  background-color: #444;
+  color: whitesmoke !important;
+}
+
+.dark-mode .tags {
+  color: #444;
+}
+
+.dark-mode chip:hover {
+  color: white;
+}
+
+#toggle {
+  cursor: pointer;
+  transition: none !important;
+}
