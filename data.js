@@ -81,7 +81,7 @@ projects = [
     show: false,
     description:
       "Shopping List built with MERN and Redux and JWT authentication",
-    tags: "#MongoDB #Express #Node #React #Redux",
+    tags: "#MongoDB #Express #Node #React #Redux #PWA",
   },
   {
     name: "Furniture Store",
@@ -90,6 +90,14 @@ projects = [
     show: false,
     description: "Next JS store app using semantic ui and stripe",
     tags: "#NextJS #SemanticUI #Stripe",
+  },
+  {
+    name: "Weather",
+    github: `https://github.com/koftov/Aharon-Lubitsch-25-10-2020`,
+    url: "https://wweather.netlify.app/",
+    show: false,
+    description: "React & Redux wether app",
+    tags: "#React #Redux #SemanticUI #Redux-Thunk #PWA",
   },
   {
     name: "Story Books",
