@@ -278,18 +278,18 @@ div div .actions a:active {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #1c1e21;
 }
 
 .dark-mode header,
 .dark-mode .box,
 .dark-mode a {
-  background-color: #1b1c1d;
+  background-color: #444;
   color: whitesmoke !important;
 }
 
 .dark-mode .tags {
-  color: #1b1c1d;
+  color: #444;
 }
 
 .dark-mode chip:hover {
