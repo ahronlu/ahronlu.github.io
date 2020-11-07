@@ -178,7 +178,7 @@ main {
 }
 
 chip {
-  cursor: pointer;
+  cursor: no-drop;
   background: gray;
   border-radius: 20px;
   padding: 5px;
@@ -187,7 +187,7 @@ chip {
 }
 
 chip:hover {
-  color: #444;
+  color: #000;
 }
 
 .box::after {
@@ -312,6 +312,10 @@ div div .actions a:active {
 
 .dark-mode .tags {
   color: #444;
+}
+
+.dark-mode chip {
+  color: black;
 }
 
 .dark-mode chip:hover {
