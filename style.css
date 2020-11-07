@@ -17,7 +17,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+a:hover,
+#toggle:hover {
   opacity: 0.6;
 }
 
