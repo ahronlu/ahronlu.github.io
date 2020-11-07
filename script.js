@@ -1,6 +1,8 @@
 const container = document.querySelector(".container");
 const toggleBtn = document.querySelector("#toggle");
+const showBtn = document.querySelector("#show");
 let dark = false;
+let show = false;
 
 toggleBtn.addEventListener("click", () => {
   dark = !dark;
@@ -9,7 +11,9 @@ toggleBtn.addEventListener("click", () => {
 });
 
 for (let i = 0; i < projects.length; i++) {
-  container.innerHTML += `<div class="box" title='${projects[i].description}'>
+  container.innerHTML += `<div class="${
+    projects[i].show ? "box" : "box hide"
+  }" title="${projects[i].description}">
   <a target="_blank" href=${projects[i].url}>
         <h2>${projects[i].name}</h2></a><a target="_blank" href=${
     projects[i].url
@@ -27,6 +31,19 @@ for (let i = 0; i < projects.length; i++) {
         </a></div>
         </div>`;
 }
+
+const hideBoxes = document.querySelectorAll(".hide");
+
+showBtn.addEventListener("click", () => {
+  if (showBtn.textContent === "Hide More") {
+    showBtn.textContent = "Show More";
+  } else {
+    showBtn.textContent = "Hide More";
+  }
+  hideBoxes.forEach((x) => {
+    x.classList.toggle("hide");
+  });
+});
 
 function getThumbnailUrl(projectName) {
   return "./img/" + projectName.toLowerCase().replace(/\s/g, "") + ".png";

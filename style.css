@@ -139,6 +139,27 @@ header br {
   justify-content: space-between;
 }
 
+main {
+  text-align: center;
+}
+
+#show {
+  padding: 2px;
+  cursor: pointer;
+  color: rebeccapurple;
+  border: 1px rebeccapurple solid;
+  border-radius: 5px;
+}
+
+#show:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
 .box:hover {
   transform: scale(1.1);
 }
