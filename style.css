@@ -73,6 +73,10 @@ header .skills i {
   font-size: 1.5em;
 }
 
+.iconify {
+  font-size: 1.4em;
+}
+
 header .skills .fa-html5 {
   color: #e34f26;
 }
