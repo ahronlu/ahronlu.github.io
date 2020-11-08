@@ -327,14 +327,6 @@ projects = [
     tags: "#React #Redux #PayPal",
   },
   {
-    name: "Frontend Mentor Challenges",
-    github: "https://github.com/koftov/frontend-mentor-challenges",
-    url: "https://koftov.github.io/frontend-mentor-challenges",
-    show: false,
-    description: "CSS challenges",
-    tags: "#CSS #HTML",
-  },
-  {
     name: "Chuck Norris Jokes",
     github: "https://github.com/koftov/chucknorrisjokes",
     url: "https://koftov.github.io/chucknorrisjokes",
