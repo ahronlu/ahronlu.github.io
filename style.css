@@ -168,6 +168,7 @@ main {
   color: rebeccapurple;
   border: 1px rebeccapurple solid;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 #show:hover {
@@ -279,6 +280,16 @@ div div .actions a:active {
 
 .dark-mode chip:hover {
   color: #000;
+}
+
+.dark-mode #show {
+  border-color: white;
+  color: white;
+}
+
+.dark-mode #show:hover {
+  background-color: white;
+  color: #1c1e21;
 }
 
 #toggle {
