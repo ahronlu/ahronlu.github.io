@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  transition: all ease-in 0.2s;
+  transition: all 200ms;
 }
 
 body {
@@ -23,19 +25,12 @@ a:hover,
 }
 
 header {
-  background-color: whitesmoke;
-  border-radius: 5px;
   margin: 10px auto;
-  margin-top: 20px;
   max-width: 1110px;
-  padding: 10px;
   text-align: left;
   justify-content: center;
   align-items: center;
   display: flex;
-  border-top: 5px solid pink;
-  border-bottom: 5px solid pink;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
   animation-name: fadeInOpacity;
   animation-duration: 1s;
 }
@@ -151,7 +146,6 @@ header img:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 10px 0;
-  position: relative;
   overflow: hidden;
   margin: 15px;
   width: 350px;
@@ -185,10 +179,6 @@ main {
   display: none;
 }
 
-.box:hover {
-  transform: scale(1.1);
-}
-
 .box > a img {
   width: 350px;
   height: 180px;
@@ -212,64 +202,6 @@ chip {
 
 chip:hover {
   color: #000;
-}
-
-.box::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 5px;
-  width: 100%;
-}
-
-.box::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 5px;
-  width: 100%;
-}
-
-.box:nth-child(1n + 0):after {
-  background-color: hsl(0, 78%, 62%);
-}
-
-.box:nth-child(1n + 0):before {
-  background-color: hsl(0, 78%, 62%);
-}
-
-.box:nth-child(2n + 0):after {
-  background-color: hsl(180, 62%, 55%);
-}
-
-.box:nth-child(2n + 0):before {
-  background-color: hsl(180, 62%, 55%);
-}
-
-.box:nth-child(3n + 0):after {
-  background-color: hsl(34, 97%, 64%);
-}
-
-.box:nth-child(3n + 0):before {
-  background-color: hsl(34, 97%, 64%);
-}
-
-.box:nth-child(4n + 0):after {
-  background-color: hsl(212, 86%, 64%);
-}
-
-.box:nth-child(4n + 0):before {
-  background-color: hsl(212, 86%, 64%);
-}
-
-.box:nth-child(5n + 0):after {
-  background-color: purple;
-}
-
-.box:nth-child(5n + 0):before {
-  background-color: purple;
 }
 
 div div .actions a {
@@ -325,12 +257,15 @@ div div .actions a:active {
 
 .dark-mode {
   background-color: #1c1e21;
+  color: whitesmoke !important;
 }
 
-.dark-mode header,
-.dark-mode .box,
-.dark-mode a {
+.dark-mode .box {
   background-color: #444;
+  color: whitesmoke !important;
+}
+.dark-mode a {
+  /* background-color: #444; */
   color: whitesmoke !important;
 }
 
@@ -339,11 +274,11 @@ div div .actions a:active {
 }
 
 .dark-mode chip {
-  color: black;
+  color: white;
 }
 
 .dark-mode chip:hover {
-  color: white;
+  color: #000;
 }
 
 #toggle {

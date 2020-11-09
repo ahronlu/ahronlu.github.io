@@ -1,6 +1,7 @@
 const container = document.querySelector(".container");
 const toggleBtn = document.querySelector("#toggle");
 const showBtn = document.querySelector("#show");
+const img = document.querySelector("header img");
 let dark = false;
 let show = false;
 
