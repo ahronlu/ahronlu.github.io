@@ -158,6 +158,8 @@ main {
 }
 
 #show {
+  animation-name: fadeInOpacity;
+  animation-duration: 2s;
   padding: 2px;
   cursor: pointer;
   color: rebeccapurple;
