@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f2f3f5;
+  background-color: #fff;
   font-family: "Poppins", sans-serif;
   color: #444;
 }
@@ -78,7 +78,7 @@ header .skills .fa-css3-alt {
   color: #2965f1;
 }
 
-header .skills .fa-js-square {
+header .skills .fa-js {
   color: #f0db4f;
 }
 
