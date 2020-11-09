@@ -36,11 +36,9 @@ header {
   border-top: 5px solid pink;
   border-bottom: 5px solid pink;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  animation-name: fadeInOpacity;
+  animation-duration: 1s;
 }
-
-/* header:hover {
-  transform: scale(1.1);
-} */
 
 header h1 {
   font-weight: 800;
@@ -129,6 +127,15 @@ header br {
   max-width: 1140px;
 }
 
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .box {
   background-color: whitesmoke;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
@@ -142,6 +149,8 @@ header br {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation-name: fadeInOpacity;
+  animation-duration: 1s;
 }
 
 main {
