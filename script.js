@@ -4,6 +4,8 @@ const showBtn = document.querySelector("#show");
 let dark = false;
 let show = false;
 
+setTimeout(() => (showBtn.style.display = "inline-block"), 1000);
+
 toggleBtn.addEventListener("click", () => {
   dark = !dark;
   toggleBtn.classList = dark ? "fas fa-sun" : "fas fa-moon";
