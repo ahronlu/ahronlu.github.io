@@ -120,6 +120,16 @@ header br {
   display: none;
 }
 
+header img {
+  animation-name: fadeInOpacity;
+  animation-duration: 1s;
+  transition: 0.5s;
+}
+
+header img:hover {
+  opacity: 0.5;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
