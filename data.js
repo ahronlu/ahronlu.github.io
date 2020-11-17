@@ -111,7 +111,7 @@ projects = [
   },
   {
     name: "Weather",
-    github: "https://github.com/koftov/Aharon-Lubitsch-25-10-2020",
+    github: "https://github.com/koftov/weather",
     url: "https://wweather.netlify.app/",
     show: false,
     description: "React & Redux wether app",
