@@ -42,10 +42,19 @@ projects = [
     tags: "#MongoDB #Express #Node",
   },
   {
+    name: "Instagram Clone",
+    github: "https://github.com/koftov/instagram",
+    url: "https://koftovinstagram.herokuapp.com",
+    show: true,
+    description: "Instagram clone, built with MERN",
+    tags:
+      "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Formik #Bootstrap",
+  },
+  {
     name: "Koftov Places",
     github: "https://github.com/koftov/koftovplaces",
     url: "https://koftovplaces.web.app",
-    show: true,
+    show: false,
     description: "Places sharing app, built with MERN",
     tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks",
   },
