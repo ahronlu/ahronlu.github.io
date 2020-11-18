@@ -51,6 +51,15 @@ projects = [
       "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Formik #Bootstrap",
   },
   {
+    name: "Koftov Models",
+    github: "https://github.com/koftov/koftov-models",
+    url: "https://koftov-models.web.app",
+    show: false,
+    description:
+      "Real used app that i've created for model agent to track models and sessions",
+    tags: "#React #Firebase #Firestore #Semantic-UI",
+  },
+  {
     name: "Koftov Places",
     github: "https://github.com/koftov/koftovplaces",
     url: "https://koftovplaces.web.app",
