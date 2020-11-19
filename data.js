@@ -110,6 +110,14 @@ projects = [
     tags: "#NextJS #SemanticUI #Stripe",
   },
   {
+    name: "Memories",
+    github: "https://github.com/koftov/memories",
+    url: "https://kmemories.herokuapp.com/",
+    show: false,
+    description: "MERN stack app to save memory images",
+    tags: "#MongoDB #Express #Node #React #Redux #Material-UI #Moment",
+  },
+  {
     name: "IT Logger",
     github: "https://github.com/koftov/it-logger",
     url: "https://koftovitlogger.herokuapp.com/",
