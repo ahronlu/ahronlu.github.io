@@ -276,8 +276,8 @@ projects = [
     github: "https://github.com/koftov/githubfinder",
     url: "https://ggithubfinder.netlify.app/",
     show: false,
-    description: "Search Github users - React hooks & context",
-    tags: "#React #ContextAPI #ReactHooks #Bootstrap #PWA",
+    description: "Search Github users - React & Redux",
+    tags: "#React #Redux #ReactHooks #Bootstrap",
   },
   {
     name: "Github Jobs",
