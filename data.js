@@ -135,6 +135,22 @@ projects = [
     tags: "#React #Redux #SemanticUI #Redux-Thunk #PWA",
   },
   {
+    name: "Json Place Holder",
+    github: "https://github.com/koftov/jsonplaceholder",
+    url: "https://jsonplace.netlify.app/",
+    show: false,
+    description: "React & Redux app connected to Jsonplaceholder API",
+    tags: "#React #Redux #SemanticUI #Redux-Thunk",
+  },
+  {
+    name: "Weather",
+    github: "https://github.com/koftov/whosintown",
+    url: "https://whosintown.netlify.app/",
+    show: false,
+    description: "React & Redux app",
+    tags: "#React #Redux #SemanticUI #Redux-Thunk",
+  },
+  {
     name: "Story Books",
     github: "https://github.com/koftov/storybooks",
     url: "http://koftovstorybooks.herokuapp.com/",
