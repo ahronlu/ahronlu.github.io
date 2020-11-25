@@ -143,7 +143,7 @@ projects = [
     tags: "#React #Redux #SemanticUI #Redux-Thunk",
   },
   {
-    name: "Weather",
+    name: "Whos In Town",
     github: "https://github.com/koftov/whosintown",
     url: "https://whosintown.netlify.app/",
     show: false,
