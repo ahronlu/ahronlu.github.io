@@ -4,33 +4,37 @@ projects = [
     github: "https://github.com/koftov/proshop",
     url: "https://koftovproshop.herokuapp.com/",
     show: true,
-    description: "Shopping cart built with MERN & Redux",
+    description:
+      "eCommerce platform, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
     tags:
-      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #Bootstrap",
+      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #Bootstrap #JWT",
   },
   {
     name: "Devconnector",
     github: "https://github.com/koftov/devconnector",
     url: "https://koftovdevconnector.herokuapp.com/",
     show: true,
-    description: "Social network for developers, built with MERN & Redux",
-    tags: "#MongoDB #Express #React #Node #Redux #Bootstrap #PWA",
+    description:
+      "Social network for developers, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
+    tags: "#MongoDB #Express #React #Node #Redux #Bootstrap #PWA #JWT",
   },
   {
     name: "Customer Manager",
     github: "https://github.com/koftov/customer-manager",
     url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
-    description: "Customer manager app, build with MERN and Typescript",
+    description:
+      "Customer manager app, build with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
     tags:
-      "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI",
+      "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI #JWT",
   },
   {
     name: "React Social App",
     github: "https://github.com/koftov/reactsocialfrontend",
     url: "https://koftovsocial.netlify.app/",
     show: true,
-    description: "Social app using React hooks & use-immer",
+    description:
+      "React social network app, build with React hooks , use-immer & Context API for state management",
     tags: "#React #ContextAPI #Bootstrap",
   },
   {
@@ -38,17 +42,19 @@ projects = [
     github: "https://github.com/koftov/devcamper-api",
     url: "https://koftov-devcamper-api.herokuapp.com/",
     show: true,
-    description: "A real world backend for a bootcamp directory app",
-    tags: "#MongoDB #Express #Node",
+    description:
+      "A real world backend for a bootcamp directory app using Node.js, Express, MongoDB and JWT for Authentication",
+    tags: "#MongoDB #Express #Node #JWT",
   },
   {
     name: "Instagram Clone",
     github: "https://github.com/koftov/instagram",
     url: "https://koftovinstagram.herokuapp.com",
     show: true,
-    description: "Instagram clone, built with MERN",
+    description:
+      "Instagram clone, built with Node.js, Express, React, MongoDB and JWT for Authentication",
     tags:
-      "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Formik #Bootstrap",
+      "#MongoDB #Express #Node #React #JWT #ContextAPI #ReactHooks #Formik #Bootstrap",
   },
   {
     name: "Koftov Models",
@@ -64,7 +70,8 @@ projects = [
     github: "https://github.com/koftov/koftovplaces",
     url: "https://koftovplaces.web.app",
     show: false,
-    description: "Places sharing app, built with MERN",
+    description:
+      "Places sharing app, built with Node.js, Express, React, MongoDB and JWT for Authentication",
     tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks",
   },
   {
@@ -72,7 +79,7 @@ projects = [
     github: "https://github.com/koftov/koftov-clothing",
     url: "https://koftov-clothing.herokuapp.com/",
     show: false,
-    description: "Clothing shop using React & Redux with firebase server",
+    description: "Clothing shop using React, Redux & firebase",
     tags: "#Firebase #Firestore #Stripe #React #Redux",
   },
   {
@@ -80,8 +87,10 @@ projects = [
     github: "https://github.com/koftov/contact-keeper",
     url: "https://koftovcontactkeeper.herokuapp.com/",
     show: false,
-    description: "Contact manager app, build with MERN",
-    tags: "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Bootstrap",
+    description:
+      "Contact manager app, build with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
+    tags:
+      "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Bootstrap #JWT",
   },
   {
     name: "Social App",
@@ -89,8 +98,8 @@ projects = [
     url: "https://kofbook.netlify.app/",
     show: false,
     description:
-      "Social app using React hooks & context with GraphQL server and MongoDB",
-    tags: "#MongoDB #Express #Node #React #GraphQL #SemanticUI",
+      "Social app, build with Node.js, Express, React, MongoDB, GraphQL and JWT for Authentication",
+    tags: "#MongoDB #Express #Node #React #GraphQL #SemanticUI #JWT",
   },
   {
     name: "Shopping List",
@@ -98,8 +107,8 @@ projects = [
     url: "https://koftovshoppinglist.herokuapp.com/",
     show: false,
     description:
-      "Shopping List built with MERN and Redux and JWT authentication",
-    tags: "#MongoDB #Express #Node #React #Redux #PWA",
+      "Shopping List,built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
+    tags: "#MongoDB #Express #Node #React #Redux #PWA #JWT",
   },
   {
     name: "Furniture Store",
@@ -263,6 +272,14 @@ projects = [
     tags: "#MongoDB #Express #Node #VanilaJS #Bootstrap",
   },
   {
+    name: "Github Finder",
+    github: "https://github.com/koftov/githubfinder",
+    url: "https://ggithubfinder.netlify.app/",
+    show: false,
+    description: "Search Github users - React & Redux",
+    tags: "#React #Redux #ReactHooks #Bootstrap",
+  },
+  {
     name: "Search Github Users",
     github: "https://github.com/koftov/react-search-github-users",
     url: "https://ghuserssearch.netlify.app/",
@@ -270,14 +287,6 @@ projects = [
     description:
       "A react app to search for github users using fusioncharts and auth0",
     tags: "#Auth0 #FusionCharts #React",
-  },
-  {
-    name: "Github Finder",
-    github: "https://github.com/koftov/githubfinder",
-    url: "https://ggithubfinder.netlify.app/",
-    show: false,
-    description: "Search Github users - React & Redux",
-    tags: "#React #Redux #ReactHooks #Bootstrap",
   },
   {
     name: "Github Jobs",
