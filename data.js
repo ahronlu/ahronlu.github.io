@@ -24,7 +24,7 @@ projects = [
     url: "http://aharonlubitsch.herokuapp.com/",
     show: true,
     description:
-      "Customer manager app, build with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
+      "Customer manager app, built with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI #JWT",
   },
@@ -34,7 +34,7 @@ projects = [
     url: "https://koftovsocial.netlify.app/",
     show: true,
     description:
-      "React social network app, build with React hooks , use-immer & Context API for state management",
+      "React social network app, built with React hooks , use-immer & Context API for state management",
     tags: "#React #ContextAPI #Bootstrap",
   },
   {
@@ -88,7 +88,7 @@ projects = [
     url: "https://koftovcontactkeeper.herokuapp.com/",
     show: false,
     description:
-      "Contact manager app, build with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
+      "Contact manager app, built with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Bootstrap #JWT",
   },
@@ -98,7 +98,7 @@ projects = [
     url: "https://kofbook.netlify.app/",
     show: false,
     description:
-      "Social app, build with Node.js, Express, React, MongoDB, GraphQL and JWT for Authentication",
+      "Social app, built with Node.js, Express, React, MongoDB, GraphQL and JWT for Authentication",
     tags: "#MongoDB #Express #Node #React #GraphQL #SemanticUI #JWT",
   },
   {
@@ -107,7 +107,7 @@ projects = [
     url: "https://koftovshoppinglist.herokuapp.com/",
     show: false,
     description:
-      "Shopping List,built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
+      "Shopping List, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
     tags: "#MongoDB #Express #Node #React #Redux #PWA #JWT",
   },
   {
@@ -216,7 +216,7 @@ projects = [
     url: "http://koftov-netflix.web.app/",
     show: false,
     description:
-      "Netflix clone built with react and firebase using styled-components",
+      "Netflix clone, built with react and firebase using styled-components",
     tags: "#React #Firebase #Firestore #Styled-Components",
   },
   {
@@ -242,7 +242,7 @@ projects = [
     github: "https://github.com/koftov/employee-manager",
     url: "https://vue-koftov.web.app/",
     show: false,
-    description: "Employee manager app built on Vue.js and FireStore",
+    description: "Employee manager app, built on Vue.js and FireStore",
     tags: "#Firebase #Firestore #Vue #Materialize",
   },
   {
@@ -326,7 +326,7 @@ projects = [
     github: "https://github.com/koftov/ionic-react-bmi-calculator",
     url: "https://koftovbmi.netlify.app/",
     show: false,
-    description: "Simple BMI calculator build with ionic and react",
+    description: "Simple BMI calculator, built with ionic and react",
     tags: "#React #Ionic",
   },
   {
