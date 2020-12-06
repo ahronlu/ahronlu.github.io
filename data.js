@@ -310,7 +310,7 @@ projects = [
     url: "https://koftovimgfinder.netlify.app/",
     show: false,
     description: "React & Material UI image finder app using Pixabay API",
-    tags: "#React #MaterialUI",
+    tags: "#React #MaterialUI #TypeScript",
   },
   {
     name: "Lyric finder",
