@@ -53,6 +53,10 @@ header .fa-envelope {
   color: #9c27b0;
 }
 
+header .fa-whatsapp {
+  color: green;
+}
+
 header .fa-github {
   color: #4267b2;
 }
