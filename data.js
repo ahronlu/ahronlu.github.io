@@ -19,6 +19,16 @@ projects = [
     tags: "#MongoDB #Express #React #Node #Redux #Bootstrap #PWA #JWT",
   },
   {
+    name: "Instagram Clone",
+    github: "https://github.com/koftov/instagram",
+    url: "https://koftovinstagram.herokuapp.com",
+    show: true,
+    description:
+      "Instagram clone, built with Node.js, Express, React, MongoDB and JWT for Authentication",
+    tags:
+      "#MongoDB #Express #Node #React #JWT #ContextAPI #ReactHooks #Formik #Bootstrap",
+  },
+  {
     name: "Customer Manager",
     github: "https://github.com/koftov/customer-manager",
     url: "http://aharonlubitsch.herokuapp.com/",
@@ -27,15 +37,6 @@ projects = [
       "Customer manager app, built with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI #JWT",
-  },
-  {
-    name: "React Social App",
-    github: "https://github.com/koftov/reactsocialfrontend",
-    url: "https://koftovsocial.netlify.app/",
-    show: true,
-    description:
-      "React social network app, built with React hooks , use-immer & Context API for state management",
-    tags: "#React #ContextAPI #Bootstrap",
   },
   {
     name: "Devcamper API",
@@ -47,14 +48,13 @@ projects = [
     tags: "#MongoDB #Express #Node #JWT",
   },
   {
-    name: "Instagram Clone",
-    github: "https://github.com/koftov/instagram",
-    url: "https://koftovinstagram.herokuapp.com",
+    name: "React Social App",
+    github: "https://github.com/koftov/reactsocialfrontend",
+    url: "https://koftovsocial.netlify.app/",
     show: true,
     description:
-      "Instagram clone, built with Node.js, Express, React, MongoDB and JWT for Authentication",
-    tags:
-      "#MongoDB #Express #Node #React #JWT #ContextAPI #ReactHooks #Formik #Bootstrap",
+      "React social network app, built with React hooks , use-immer & Context API for state management",
+    tags: "#React #ContextAPI #Bootstrap",
   },
   {
     name: "Koftov Models",
