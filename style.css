@@ -295,6 +295,10 @@ div div .actions a:active {
   color: #1c1e21;
 }
 
+.dark-mode header .fa-github {
+  color: #c7c7c7;
+}
+
 #toggle {
   cursor: pointer;
   transition: none !important;
