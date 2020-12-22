@@ -21,7 +21,7 @@ projects = [
   {
     name: "Instagram Clone",
     github: "https://github.com/ahronlu/instagram",
-    url: "https://koftovinstagram.herokuapp.com",
+    url: "https://ahronluinstagram.herokuapp.com",
     show: true,
     description:
       "Instagram clone, built with Node.js, Express, React, MongoDB and JWT for Authentication",
