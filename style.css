@@ -115,6 +115,10 @@ header .links i {
   font-size: 20px;
 }
 
+header svg {
+  width: 20px;
+}
+
 header br {
   display: none;
 }
