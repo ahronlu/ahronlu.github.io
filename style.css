@@ -204,7 +204,7 @@ chip {
   background: gray;
   border-radius: 20px;
   padding: 5px;
-  font-size: 10px;
+  font-size: 16px;
   margin: 1px 0;
 }
 
@@ -221,7 +221,7 @@ div div .actions a {
 }
 
 .box p {
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px 0 40px;
 }
 
@@ -259,7 +259,7 @@ div div .actions a:active {
   }
 
   header p {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 
