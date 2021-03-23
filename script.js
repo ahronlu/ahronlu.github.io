@@ -13,8 +13,6 @@ toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-console.log(projects.length);
-
 projects.forEach((p) => {
   container.innerHTML += `<div class="${p.show ? "box" : "box hide"}" title="${
     p.description
