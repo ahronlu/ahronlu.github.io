@@ -22,10 +22,10 @@ projects.forEach((p) => {
         <img src=${getThumbnailUrl(p.name)} alt="${p.name}" /></a>
         <p class="tags">${tagsToChips(p.tags)}</p>
         <div class="actions">
-        <a target="_blank" href=${p.url}>
+        <a rel="noreferrer" target="_blank" href=${p.url}>
         <i class="fas fa-eye"></i> View Live
         </a>
-        <a target="_blank" href=${p.github}>
+        <a rel="noreferrer" target="_blank" href=${p.github}>
         <i class="fab fa-github"></i> Github
         </a></div>
         </div>`;
