@@ -125,8 +125,8 @@ header img {
   animation-name: fadeInOpacity;
   animation-duration: 1s;
   transition: 0.5s;
-  width: 11.5vw;
-  height: auto;
+  width: 11.4vw;
+  height: 11.4vw;
 }
 
 header img:hover {
