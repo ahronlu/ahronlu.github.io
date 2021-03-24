@@ -56,9 +56,6 @@ projects = [
       "React social network app, built with React hooks , use-immer & Context API for state management",
     tags: "#React #ContextAPI #Bootstrap",
   },
-];
-
-cosnt moreProjects = [
     {
       name: "Koftov Models",
       github: "https://github.com/ahronlu/koftov-models",
