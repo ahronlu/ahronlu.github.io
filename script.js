@@ -17,8 +17,8 @@ projects.forEach((p) => {
   container.innerHTML += `<div class="${p.show ? "box" : "box hide"}" title="${
     p.description
   }">
-  <a target="_blank" href=${p.url}>
-        <h2>${p.name}</h2></a><a target="_blank" href=${p.url}>
+  <a rel="noreferrer" target="_blank" href=${p.url}>
+        <h2>${p.name}</h2></a><a rel="noreferrer" target="_blank" href=${p.url}>
         <img src=${getThumbnailUrl(p.name)} alt="${p.name}" /></a>
         <p class="tags">${tagsToChips(p.tags)}</p>
         <div class="actions">
