@@ -249,6 +249,12 @@ div div .actions {
 div div .actions a:active {
   color: gray;
 }
+@media only screen and (max-width: 1000px) {  
+  header svg {
+      width: 2.5vw;
+      height: 2.5vw;
+  }
+}
 
 @media only screen and (max-width: 600px) {  
   .container {
