@@ -250,11 +250,7 @@ div div .actions a:active {
   color: gray;
 }
 
-@media only screen and (max-width: 600px) {
-  chip {
-    padding: 10px;
-  }
-  
+@media only screen and (max-width: 600px) {  
   header svg {
     width: 6vw;
     height: 6vw;
