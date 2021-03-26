@@ -65,7 +65,6 @@ header .fa-facebook-square {
 
 header .skills svg {
   margin: 0 1px;
-  font-size: 1.5em;
 }
 
 .iconify {
@@ -110,11 +109,11 @@ header .links {
 
 header .links svg {
   margin: 0 0.2vw;
-  font-size: 20px;
 }
 
 header svg {
-  width: 20px;
+  width: 3vw;
+  height: 3vw;
 }
 
 header br {
@@ -248,7 +247,6 @@ div div .actions a:active {
 
   header .links svg {
     margin: 0 1vw;
-    font-size: 20px;
   }
 
   header br {
