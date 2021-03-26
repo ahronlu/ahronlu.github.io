@@ -202,7 +202,7 @@ main {
 chip {
   background: #606060;
   border-radius: 20px;
-  padding: 0px;
+  padding: 5px;
   font-size: 16px;
   margin: 1px 0;
 }
