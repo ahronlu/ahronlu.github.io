@@ -342,9 +342,12 @@ div div .actions a:active {
   color: #1c1e21;
 }
 
-.dark-mode header .fa-github,
-.dark-mode header .Github{
+.dark-mode header .fa-github {
   color: whitesmoke;
+}
+
+.dark-mode header .Github g {
+  fill: whitesmoke;
 }
 
 #toggle {
