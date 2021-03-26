@@ -286,6 +286,7 @@ div div .actions a:active {
   
   .box {
     width: 100%!important;
+    margin: 5vw 1vw;
   }
 }
 
