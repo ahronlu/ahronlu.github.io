@@ -112,8 +112,8 @@ header .links svg {
 }
 
 header svg {
-  width: 3vw;
-  height: 3vw;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 header br {
@@ -241,6 +241,10 @@ div div .actions a:active {
 }
 
 @media only screen and (max-width: 600px) {
+  header svg {
+    width: 5vw;
+    height: 5vw;
+  }
   header img {
     display: none;
   }
