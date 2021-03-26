@@ -188,8 +188,8 @@ main {
 }
 
 .box > a img {
-  width: 350px;
-  height: 180px;
+  width: 100%;
+  height: auto;
 }
 
 .tags {
@@ -284,6 +284,10 @@ div div .actions a:active {
 .dark-mode {
   background-color: #1c1e21;
   color: whitesmoke !important;
+}
+
+.box {
+  width: 100%;
 }
 
 .dark-mode .box {
