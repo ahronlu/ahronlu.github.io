@@ -63,7 +63,7 @@ header .fa-facebook-square {
   color: #4267b2;
 }
 
-header .skills i {
+header .skills svg {
   margin: 0 1px;
   font-size: 1.5em;
 }
@@ -244,6 +244,11 @@ div div .actions a:active {
 @media only screen and (max-width: 600px) {
   header img {
     display: none;
+  }
+
+  header .links svg {
+    margin: 0 1vw;
+    font-size: 20px;
   }
 
   header br {
