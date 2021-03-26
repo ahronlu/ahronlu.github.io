@@ -24,7 +24,7 @@ a:hover,
 
 header {
   margin: 10px auto;
-  max-width: 1110px;
+  width: 95vw;
   text-align: left;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@ header img:hover {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 90vw;
+  width: 90vw;
 }
 
 @keyframes fadeInOpacity {
