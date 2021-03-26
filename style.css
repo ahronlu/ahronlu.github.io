@@ -279,15 +279,15 @@ div div .actions a:active {
   header p {
     font-size: 16px;
   }
+  
+  .box {
+    width: 100%!important;
+  }
 }
 
 .dark-mode {
   background-color: #1c1e21;
   color: whitesmoke !important;
-}
-
-.box {
-  width: 100%;
 }
 
 .dark-mode .box {
