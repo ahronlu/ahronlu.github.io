@@ -263,6 +263,10 @@ div div .actions a:active {
   header img {
     display: none;
   }
+  
+  header .links {
+    justify-content: center;
+  }
 
   header .links svg {
     margin: 0 1vw;
@@ -278,6 +282,7 @@ div div .actions a:active {
 
   header {
     margin: 5vw auto;
+    text-align: center;
   }
 
   header p {
