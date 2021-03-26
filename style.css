@@ -136,7 +136,7 @@ header img:hover {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 90vw;
 }
 
 @keyframes fadeInOpacity {
@@ -155,7 +155,7 @@ header img:hover {
   padding: 10px 0;
   overflow: hidden;
   margin: 15px;
-  width: 350px;
+  width: 30%;
   text-align: center;
   display: flex;
   flex-direction: column;
