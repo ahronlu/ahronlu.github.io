@@ -212,6 +212,7 @@ chip:hover {
 }
 
 div div .actions a {
+  width: 50%;
   padding: 5px;
   display: flex;
   align-items: center;
