@@ -300,6 +300,10 @@ div div .actions a:active {
     width: 100%!important;
     margin: 5vw 1vw;
   }
+  
+  .skills {
+    margin: 1vw auto;
+  }
 }
 
 .dark-mode {
