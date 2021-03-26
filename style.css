@@ -108,7 +108,7 @@ header .links {
   display: flex;
 }
 
-header .links i {
+header .links svg {
   margin: 0 2px;
   font-size: 20px;
 }
