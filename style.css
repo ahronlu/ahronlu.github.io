@@ -265,6 +265,7 @@ div div .actions a:active {
   }
   
   header .links {
+    margin: 1vw auto;
     justify-content: center;
   }
 
