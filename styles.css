@@ -58,6 +58,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -76,10 +77,12 @@ main {
   top: 5%;
   right: 15%;
 }
+
 .circle2 {
   bottom: 5%;
   left: 10%;
 }
+
 .dashboard {
   padding-top: 1em;
   flex: 1;
@@ -237,33 +240,45 @@ chip:hover {
 }
 
 @media (max-width: 1000px) {
+  .actions a svg {
+    width: 2.5vw;
+  }
+
   .glass {
     width: 98%;
   }
+
   .dashboard {
     padding: 1.5vw 0.5vw !important;
     justify-content: space-around;
     flex-direction: row;
   }
+
   .link {
     margin: 0;
     padding: 1vw;
   }
+
   .dashboard h1 {
     font-size: 1em;
   }
+
   .dashboard h2 {
     font-size: 1em;
   }
+
   .links {
     display: flex;
   }
+
   .user img {
     display: none;
   }
+
   .links h2 {
     display: none;
   }
+
   .glass {
     flex-direction: column;
   }
