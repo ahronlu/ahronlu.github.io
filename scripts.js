@@ -31,3 +31,26 @@ function getThumbnailUrl(projectName) {
 function tagsToChips(tags) {
   return tags.split(" ").map((tag) => `<chip title="${tag}">${tag}</chip>`);
 }
+
+var cacheName = "Ahronlu";
+var filesToCache = [
+  "./",
+  "./index.html",
+  "./css/styles.css",
+  "./js/scripts.js",
+];
+self.addEventListener("install", function (e) {
+  e.waitUntil(
+    caches.open(cacheName).then(function (cache) {
+      return cache.addAll(filesToCache);
+    })
+  );
+});
+/* Serve cached content when offline */
+self.addEventListener("fetch", function (e) {
+  e.respondWith(
+    caches.match(e.request).then(function (response) {
+      return response || fetch(e.request);
+    })
+  );
+});

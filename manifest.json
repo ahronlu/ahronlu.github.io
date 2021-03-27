@@ -1,0 +1,15 @@
+{  
+    "name": "Aharon Lubitsch - Full Stack Developer",
+    "short_name": "Aharon Lubitsch - Full Stack Developer",
+    "orientation": "portrait-primary",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "white",
+    "icons": [
+        {
+            "src": "./img/big-koftov.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
