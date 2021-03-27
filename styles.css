@@ -296,4 +296,8 @@ chip:hover {
     margin: 1em 0;
     width: 100%;
   }
+
+  .actions a svg {
+    width: 3.5vw;
+  }
 }
