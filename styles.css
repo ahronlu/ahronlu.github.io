@@ -32,6 +32,7 @@ h3 {
 
 .user img {
   width: 10vw;
+  height: auto;
 }
 
 main {
@@ -171,6 +172,7 @@ main {
 .card a,
 .card img {
   width: 100%;
+  height: auto;
 }
 
 .actions {
@@ -241,7 +243,7 @@ chip:hover {
 
 @media (max-width: 1000px) {
   .actions a svg {
-    width: 2.5vw;
+    width: 3vw;
   }
 
   .glass {
@@ -273,6 +275,7 @@ chip:hover {
 
   .user img {
     display: none;
+    height: auto;
   }
 
   .links h2 {
