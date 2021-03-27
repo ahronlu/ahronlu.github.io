@@ -8,22 +8,30 @@
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 p {
   font-weight: 500;
+  font-size: 1em;
+}
+
+h2 {
   font-size: 1.2em;
 }
 
 h3 {
   color: #426696;
   font-weight: 600;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .user h2 {
   color: #426696;
+}
+
+.user img {
+  width: 10vw;
 }
 
 main {
@@ -173,7 +181,6 @@ main {
 }
 
 .actions a {
-  font-size: 1.5em;
   display: block;
   color: #426696;
   border-radius: 10px;
