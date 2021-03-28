@@ -2,7 +2,7 @@ const cards = document.querySelector(".cards");
 
 projects.forEach((p) => {
   cards.innerHTML += `
-  <div class="card ${p.show ? "" : "hide"}" title="${p.description}">
+  <div class="card" title="${p.description}">
   <a rel="noreferrer" target="_blank" href=${p.url}>
           <img src=${getThumbnailUrl(p.name)} alt="${p.name}" /></a>
               <div class="card-info">
@@ -26,10 +26,6 @@ projects.forEach((p) => {
 
 function getThumbnailUrl(projectName) {
   return "./img/" + projectName.toLowerCase().replace(/\s/g, "") + ".png";
-}
-
-function tagsToChips(tags) {
-  return tags.split(" ").map((tag) => `<chip title="${tag}">${tag}</chip>`);
 }
 
 window.onload = () => {
