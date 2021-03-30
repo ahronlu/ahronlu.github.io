@@ -4,8 +4,8 @@
   "orientation": "portrait-primary",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "black",
-  "theme_color": "white",
+  "background_color": "white",
+  "theme_color": "black",
   "icons": [
     {
       "src": "./img/big-koftov.png",
