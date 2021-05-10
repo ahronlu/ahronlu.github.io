@@ -24,7 +24,7 @@
       const button = document.getElementsByTagName("button")[0];
       const getPic = async () => {
         img.src =
-          "https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif";
+          "loading.gif";
         const res = await fetch("https://aws.random.cat/meow");
         const { file } = await res.json();
         img.src = file;
