@@ -23,6 +23,12 @@
       <img width="90%" height="100%" alt="cat" />
     </div>
     <script>
+      window.onload = () => {
+        "use strict";
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("./sw.js");
+        }
+      };
       const loading = document.getElementsByTagName("h1")[0];
       const img = document.getElementsByTagName("img")[0];
       const button = document.getElementsByTagName("button")[0];
