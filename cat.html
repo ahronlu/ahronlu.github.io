@@ -8,21 +8,14 @@
     <title>Random Cat Pictures</title>
     <style>
       * {margin: 0; padding: 0;}
-      h3 {width: 100%; height: 5vh; background:#000; display: flex; justify-content: center; align-items:center;}
+      h3, div {margin: 0 auto;text-align: center;display: flex;flex-direction: column;align-items: center;}
+      h3 {width: 100%; height: 5vh; background:#000;}
      </style>
   </head>
   <body onload="getPic()" style="background: #333; font-family:Roboto, san-serif; color: white;">
-    <div
-      style="
-        margin: 0 auto;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      "
-    >
+    <div>
       <h3 style="margin: 5px 0">I love you Coco</h3>
-      <img width="90%" style="border-radius:5px" />
+      <img width="90%" height="auto" />
     </div>
     <script>
       const loading = document.getElementsByTagName("h1")[0];
