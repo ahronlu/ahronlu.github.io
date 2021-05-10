@@ -2,7 +2,7 @@
   "name": "Random Cat Pics",
   "short_name": "Random Cat Pics",
   "orientation": "portrait-primary",
-  "start_url": "./index.html",
+  "start_url": "./cat.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "black",
