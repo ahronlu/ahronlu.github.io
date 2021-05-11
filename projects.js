@@ -24,7 +24,7 @@ projects = [
     url: "https://ahronluinstagram.herokuapp.com",
     show: true,
     description:
-      "Instagram clone, built with Node.js, Express, React, MongoDB and JWT for Authentication",
+      "Instagram clone, built with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #JWT #ContextAPI #ReactHooks #Formik #Bootstrap",
   },
