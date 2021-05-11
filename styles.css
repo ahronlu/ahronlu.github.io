@@ -174,8 +174,7 @@ main {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
 }
 
-.card a,
-.card img {
+.card a {
   width: 100%;
   height: auto;
 }
