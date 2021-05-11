@@ -3,7 +3,7 @@ const cards = document.querySelector(".cards");
 projects.forEach((p) => {
   cards.innerHTML += `
   <div class="card" title="${p.description}">
-      ${p.show && <a rel="noreferrer" target="_blank" href=${p.url}><img src=${getThumbnailUrl(p.name)} alt="${p.name}" /></a>}
+      ${p.show && '<a rel="noreferrer" target="_blank" href=${p.url}><img src=${getThumbnailUrl(p.name)} alt="${p.name}" /></a>'}
               <div class="card-info">
                 <h2>${p.name}</h2>
                 <p>${p.description}</p>
