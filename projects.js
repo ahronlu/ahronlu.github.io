@@ -48,7 +48,7 @@ projects = [
     tags: "#MongoDB #Express #Node #JWT",
   },
   {
-    name: "React Social App",
+    name: "Facebook Clone",
     github: "https://github.com/ahronlu/reactsocialfrontend",
     url: "https://koftovsocial.netlify.app/",
     show: true,
