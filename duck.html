@@ -43,7 +43,7 @@
         img.src =
           "loading.gif";
         img.classList.add("a");
-        const res = await fetch("https://cors-anywhere.herokuapp.com/https://random-d.uk/api/random");
+        const res = await fetch("https://random-d.uk/api/random");
         const { url } = await res.json();
         img.classList.remove("a");
         img.src = url;
