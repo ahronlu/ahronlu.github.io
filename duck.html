@@ -43,10 +43,10 @@
         img.src =
           "loading.gif";
         img.classList.add("a");
-        const res = await fetch("https://random-d.uk/api/randomimg");
-        const { file } = await res.json();
+        const res = await fetch("https://random-d.uk/api/random");
+        const { url } = await res.json();
         img.classList.remove("a");
-        img.src = file;
+        img.src = url;
       };
       document.addEventListener("click", getPic);
     </script>
