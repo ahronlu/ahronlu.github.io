@@ -176,11 +176,11 @@ main {
 
 .card a {
   width: 100%;
-  height: auto;
 }
 
 .card a img {
   width: 100%;
+  height: auto;
 }
 
 .actions {
