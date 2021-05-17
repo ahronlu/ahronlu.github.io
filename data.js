@@ -338,11 +338,11 @@ projects = [
     tags: "#React",
   },
   {
-    name: "Breaking Bad Cast",
-    github: "https://github.com/ahronlu/breaking-bad-cast",
-    url: "https://koftov.github.io/breaking-bad-cast/",
+    name: "Breaking Bad",
+    github: "https://github.com/ahronlu/breaking-bad",
+    url: "https://breaking-bad-plum.vercel.app/",
     show: false,
-    description: "React app to show cast info for breaking bad",
+    description: "Next.js app to show cast info for breaking bad using Typescript",
     tags: "#React",
   },
   {
