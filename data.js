@@ -83,8 +83,8 @@ projects = [
     tags: "#Firebase #Firestore #Stripe #React #Redux",
   },
   {
-    name: "Contact Keeper",
-    github: "https://github.com/ahronlu/contact-keeper",
+    name: "Contacts",
+    github: "https://github.com/ahronlu/contacts",
     url: "https://koftovcontactkeeper.herokuapp.com/",
     show: false,
     description:
