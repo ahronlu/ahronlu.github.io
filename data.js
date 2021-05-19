@@ -85,7 +85,7 @@ projects = [
   {
     name: "Contacts",
     github: "https://github.com/ahronlu/contacts",
-    url: "https://koftovcontactkeeper.herokuapp.com/",
+    url: "https://alcontacts.herokuapp.com/",
     show: false,
     description:
       "Contact manager app, built with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
