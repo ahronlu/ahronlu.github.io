@@ -10,9 +10,9 @@ projects = [
       "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #Bootstrap #JWT",
   },
   {
-    name: "Devconnector",
-    github: "https://github.com/ahronlu/devconnector",
-    url: "https://koftovdevconnector.herokuapp.com/",
+    name: "Dev-Twitter",
+    github: "https://github.com/ahronlu/dev-twitter",
+    url: "https://dev-twitter.herokuapp.com/",
     show: true,
     description:
       "Social network for developers, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
