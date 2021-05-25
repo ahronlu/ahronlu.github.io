@@ -111,9 +111,9 @@ projects = [
     tags: "#MongoDB #Express #Node #React #Redux #PWA #JWT",
   },
   {
-    name: "Furniture Store",
-    github: "https://github.com/ahronlu/furniture-store",
-    url: "https://koftovstore.herokuapp.com/",
+    name: "Bike Store",
+    github: "https://github.com/ahronlu/bike-store",
+    url: "https://bike-store.vercel.app/",
     show: false,
     description: "Next JS store app using semantic ui and stripe",
     tags: "#NextJS #SemanticUI #Stripe",
