@@ -230,6 +230,7 @@ main {
 
 .card-info p {
   margin: 1vw auto;
+  width: 100%;
 }
 
 chip {
