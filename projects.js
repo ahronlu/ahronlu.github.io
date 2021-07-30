@@ -46,14 +46,5 @@ projects = [
     description:
       "A real world backend for a bootcamp directory app using Node.js, Express, MongoDB and JWT for Authentication",
     tags: "#MongoDB #Express #Node #JWT",
-  },
-  {
-    name: "Facebook Clone",
-    github: "https://github.com/ahronlu/reactsocialfrontend",
-    url: "https://koftovsocial.netlify.app/",
-    show: true,
-    description:
-      "React social network app, built with React hooks , use-immer & Context API for state management",
-    tags: "#React #ContextAPI #Bootstrap",
   }
 ];
