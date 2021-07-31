@@ -1,8 +1,8 @@
 projects = [
   {
-    name: "Proshop",
-    github: "https://github.com/ahronlu/proshop",
-    url: "https://koftovproshop.herokuapp.com/",
+    name: "BMX Shop",
+    github: "https://github.com/ahronlu/bmxshop",
+    url: "https://bmxshop.herokuapp.com/",
     show: true,
     description:
       "eCommerce platform, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
