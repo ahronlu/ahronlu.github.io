@@ -3,6 +3,7 @@
   src: url('./fonts/Poppins-Regular.ttf')  format('truetype');
   font-display: swap;
 }
+/* Globals */
 
 * {
   transition: all 0.1s;
@@ -11,15 +12,11 @@
   box-sizing: border-box;
 }
 
+/* Typography */
 h1 {
   color: #426696;
   font-weight: 600;
   font-size: 2rem;
-}
-
-p {
-  font-weight: 500;
-  font-size: 1em;
 }
 
 h2 {
@@ -32,13 +29,9 @@ h3 {
   /* opacity: 0.8; */
 }
 
-.user h2 {
-  color: #426696;
-}
-
-.user img {
-  width: 10vw;
-  height: auto;
+p {
+  font-weight: 500;
+  font-size: 1em;
 }
 
 main {
@@ -48,6 +41,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.user h2 {
+  color: #426696;
+}
+
+.user img {
+  width: 10vw;
+  height: auto;
 }
 
 .glass {
