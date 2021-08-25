@@ -7,7 +7,16 @@ projects = [
     description:
       "eCommerce platform, built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
     tags:
-      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #Bootstrap #JWT",
+      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #ReactBootstrap #JWT",
+  },
+    {
+    name: "Devcamper API",
+    github: "https://github.com/ahronlu/devcamper",
+    url: "https://aldevcamper.herokuapp.com/",
+    show: true,
+    description:
+      "Botcamp directory app built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
+      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #ReactBootstrap #JWT",
   },
   {
     name: "Dev-Twitter",
@@ -37,14 +46,5 @@ projects = [
       "Customer manager app, built with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI #JWT",
-  },
-  {
-    name: "Devcamper API",
-    github: "https://github.com/ahronlu/devcamper-api",
-    url: "https://koftov-devcamper-api.herokuapp.com/",
-    show: true,
-    description:
-      "A real world backend for a bootcamp directory app using Node.js, Express, MongoDB and JWT for Authentication",
-    tags: "#MongoDB #Express #Node #JWT",
   }
 ];
