@@ -9,8 +9,8 @@ projects = [
     tags:
       "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #ReactBootstrap #JWT",
   },
-    {
-    name: "Devcamper API",
+  {
+    name: "Devcamper",
     github: "https://github.com/ahronlu/devcamper",
     url: "https://aldevcamper.herokuapp.com/",
     show: true,
