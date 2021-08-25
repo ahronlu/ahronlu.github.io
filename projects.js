@@ -46,5 +46,15 @@ projects = [
       "Customer manager app, built with Node.js, Express, React, MongoDB, Typescript and JWT for Authentication",
     tags:
       "#MongoDB #Express #Node #React #Typescript #ContextAPI #ReactHooks #SemanticUI #JWT",
+  },
+    {
+    name: "Contacts",
+    github: "https://github.com/ahronlu/contacts",
+    url: "https://alcontacts.herokuapp.com/",
+    show: false,
+    description:
+      "Contact manager app, built with Node.js, Express, React, MongoDB, Context API for state management and JWT for Authentication",
+    tags:
+      "#MongoDB #Express #Node #React #ContextAPI #ReactHooks #Bootstrap #JWT",
   }
 ];
