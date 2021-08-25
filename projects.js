@@ -16,7 +16,7 @@ projects = [
     show: true,
     description:
       "Botcamp directory app built with Node.js, Express, React, MongoDB, Redux for state management and JWT for Authentication",
-      "#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #ReactBootstrap #JWT",
+      tags:"#MongoDB #Express #React #Node #Redux #PWA #ReactReduxHooks #ReactBootstrap #JWT",
   },
   {
     name: "Dev-Twitter",
