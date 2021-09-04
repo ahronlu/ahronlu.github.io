@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>קוקו יפה שלי</title>
+    <meta name="description" content="קוקו יפה שלי" />
+    <meta property="og:site_name" content="קוקו יפה שלי" />
+    <meta property="og:title" content="קוקו יפה שלי" />
+    <meta property="og:description" content="קוקו יפה שלי" />
+    <meta
+      property="og:image"
+      itemprop="image"
+      content="https://ahronlu.com/cocolit.jpeg"
+    />
+    <meta property="og:type" content="website" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        overflow--x: hidden;
+        padding: 1rem;
+        font-family: "Assistant", sans-serif;
+        background-color: #212121;
+        color: #f5f5f5;
+        font-size: 18px;
+      }
+
+      @keyframes slide-left {
+        from {
+          transform: translateX(-500px);
+        }
+
+        to {
+          transform: translateX(0);
+        }
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        opacity: 0;
+        transform: translateY(100px);
+        transition: all 1s ease-in;
+      }
+
+      p,
+      h1 {
+        animation: 2s slide-left;
+        animation-delay: 2s;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        text-align: center;
+        opacity: 1;
+        transition: all 2s ease-in;
+      }
+
+      .red {
+        color: #f44336;
+      }
+
+      .green {
+        color: #76ff03;
+      }
+
+      .orange {
+        color: #e65100;
+      }
+
+      .lightblue {
+        color: #29b6f6;
+      }
+
+      .purple {
+        color: #ea80fc;
+      }
+
+      .lime {
+        color: #eeff41;
+      }
+    </style>
+  </head>
+  <body dir="rtl">
+    <h1>קוק יקרה ויפה שלי, <span class="red">&#10084;</span></h1>
+    <p class="orange">היום, סוף-סוף, את מגישה את עבודת הגמר שלך.</p>
+    <p class="lightblue">
+      זהו, חלפו להן 5 שנים יפות של לימודים, לילות ללא שינה, מפגשים חברתיים,
+      קשיים, מבחנים צחוקים, הגשות, טיולים, סטודיויים, סמסטר ביפן, סמסטר
+      בארגנטינה ועוד 2 מהבית בתל אביב בזמן הקורונה.
+    </p>
+    <p class="purple">
+      אני בטוח שבכל שיעור הוכחת את עצמך והראית לכולן כמה את אוהבת וחיה את
+      המקצוע, העתיד שלך מזהיר!
+    </p>
+    <p class="orange">בקרוב מאוד נבנה לך אתר פורטפוליו ונמצא לך משרה ראשונה.</p>
+    <p class="red">אני אוהב אותך, מחבק, מחזק אותך ותמיד איתך!</p>
+    <p class="green">עוד נכבוש ת'עולם יחד, מבטיח.</p>
+    <p class="lightblue">
+      תראי להן מה זה, סומך עלייך, שתתפקדי מעולה שם בהגשה, אל תשכחי לרגע שאת מלכת
+      ואלופת העולם בכל דבר ובעיקר באדריכלות, תקשורת וביטוי עצמי. שלא תחששי לרגע,
+      המרצות מתות עלייך, העבודה שלך מדהימה היא גם בצלאלית, גם שמאלנית גם קוקוית
+      וגם קופטובית. הכנסת בעבודה אחת כלכך הרבה ממך וזה מדהים ושובה.
+    </p>
+    <p class="lime">
+      אני גאה בך על ימים, כספים ולילות שהקדשת לעבודה הזאת, כדי שתהיה מושלמת
+      ומדויקת בדיוק כמו שאת רוצה ואוהבת.
+    </p>
+    <p class="green">אז כנסי לשם ותראי להן מה זה.</p>
+    <img src="cocolit.jpeg" alt="cocolit" />
+    <h2>מושלמת שילי!</h2>
+    <script>
+      document.addEventListener("scroll", () => {
+        console.log(window.scrollY);
+        if (window.scrollY > 250) {
+          document.querySelector("img").style.transform = "unset";
+          document.querySelector("img").style.opacity = 1;
+          document.querySelector("h2").style.opacity = 1;
+        }
+      });
+    </script>
+  </body>
+</html>
