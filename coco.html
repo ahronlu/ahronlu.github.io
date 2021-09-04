@@ -32,6 +32,25 @@
         font-size: 18px;
       }
 
+      @keyframes changeColor {
+        0% {
+          background: #f44336;
+        }
+        50% {
+          background: #000;
+        }
+        100% {
+          background: #f44336;
+        }
+      }
+
+      span.red {
+        animation-name: changeColor;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
       @keyframes slide-left {
         from {
           transform: translateX(-500px);
