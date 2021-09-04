@@ -143,13 +143,13 @@
         const cokof = document.querySelector(".cokof");
         const text = document.querySelector("h2");
 
-        console.log(window.scrollY);
         if (window.scrollY > 250) {
           cocolit.style.transform = "unset";
           cocolit.style.opacity = 1;
           text.style.opacity = 1;
         }
         if (window.scrollY >= text.offsetHeight) {
+          console.log(window.scrollY);
           cokof.style.transform = "unset";
           cokof.style.opacity = 1;
         }
