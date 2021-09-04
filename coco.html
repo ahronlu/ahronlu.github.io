@@ -139,15 +139,18 @@
     <h2>מושלמת שילי!<span class="red">&#10084;</span></h2>
     <script>
       document.addEventListener("scroll", () => {
+        const cocolit = document.querySelector(".cocolit");
+        const cokof = document.querySelector(".cokof");
+
         console.log(window.scrollY);
         if (window.scrollY > 250) {
-          document.querySelector(".cocolit").style.transform = "unset";
-          document.querySelector(".cocolit").style.opacity = 1;
+          cocolit.style.transform = "unset";
+          cocolit.style.opacity = 1;
           document.querySelector("h2").style.opacity = 1;
         }
-        if (window.scrollY > 500) {
-          document.querySelector(".cokof").style.transform = "unset";
-          document.querySelector(".cokof").style.opacity = 1;
+        if (window.scrollY >= cocolit.offsetHeight) {
+          cokof.style.transform = "unset";
+          cokof.style.opacity = 1;
         }
       });
     </script>
