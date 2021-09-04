@@ -135,8 +135,8 @@
       אז כנסי לשם ותראי להן מה זה.<span class="red">&#10084;</span>
     </p>
     <img class="cocolit" src="cocolit.jpeg" alt="cocolit" />
-    <h2>מושלמת שילי!<span class="red">&#10084;</span></h2>
     <img class="cokof" src="cokof.png" alt="cokof" />
+    <h2>מושלמת שילי!<span class="red">&#10084;</span></h2>
     <script>
       document.addEventListener("scroll", () => {
         const cocolit = document.querySelector(".cocolit");
@@ -146,12 +146,12 @@
         if (window.scrollY > 250) {
           cocolit.style.transform = "unset";
           cocolit.style.opacity = 1;
-          text.style.opacity = 1;
         }
-        if (window.scrollY >= text.offsetHeight) {
+        if (window.scrollY >= cocolit.offsetHeight) {
           console.log(window.scrollY);
           cokof.style.transform = "unset";
           cokof.style.opacity = 1;
+          text.style.opacity = 1;
         }
       });
     </script>
