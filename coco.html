@@ -33,18 +33,22 @@
       }
 
       @keyframes pulse {
-        from {
+        0% {
           font-size: smaller;
         }
 
-        to {
+        50% {
           font-size: larger;
+        }
+
+        100% {
+          font-size: smaller;
         }
       }
 
       span.red {
         font-size: smaller;
-        animation: pulse 1s infinite alternate;
+        animation: pulse 1s infinite;
       }
 
       img {
