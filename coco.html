@@ -33,33 +33,19 @@
       }
 
       @keyframes pulse {
-        0% {
+        from {
           font-size: smaller;
         }
 
-        70% {
+        to {
           font-size: larger;
-        }
-
-        100% {
-          font-size: smaller;
         }
       }
 
       span.red {
         font-size: smaller;
-        animation: pulse 2s infinite;
+        animation: pulse 1s infinite alternate;
       }
-
-      /* @keyframes slide-left {
-        from {
-          transform: translateX(-500px);
-        }
-
-        to {
-          transform: translateX(0);
-        }
-      } */
 
       img {
         max-width: 100%;
