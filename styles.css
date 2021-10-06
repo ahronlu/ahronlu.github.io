@@ -253,6 +253,10 @@ chip:hover {
   display: none !important;
 }
 
+  .links {
+    display: flex;
+  }
+
 @media (max-width: 1000px) {
   .actions a svg {
     width: 3vw;
@@ -281,9 +285,7 @@ chip:hover {
     font-size: 1em;
   }
 
-  .links {
-    display: flex;
-  }
+
 
   .user img {
     display: none;
