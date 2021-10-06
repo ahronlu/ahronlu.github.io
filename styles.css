@@ -270,7 +270,7 @@ chip:hover {
   .dashboard {
     padding: 1.5vw 0.5vw !important;
     justify-content: space-around;
-    flex-direction: row;
+/*     flex-direction: row; */
   }
 
   .link {
