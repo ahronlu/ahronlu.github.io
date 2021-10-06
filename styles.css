@@ -307,6 +307,10 @@ chip:hover {
 }
 
 @media (max-width: 600px) {
+  .user img {
+    width: 20vw;
+  }
+  
   .card {
     margin: 1em 0;
     width: 100%;
