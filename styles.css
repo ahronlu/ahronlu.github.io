@@ -289,12 +289,12 @@ chip:hover {
 
 
   .user img {
-    display: none;
+/*     display: none; */
     height: auto;
   }
 
   .links h2 {
-    display: none;
+/*     display: none; */
   }
 
   .glass {
@@ -302,7 +302,7 @@ chip:hover {
   }
 
   .skills {
-    display: none;
+/*     display: none; */
   }
 }
 
