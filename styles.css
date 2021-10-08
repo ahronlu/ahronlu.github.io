@@ -112,6 +112,6 @@ main {
 .links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
