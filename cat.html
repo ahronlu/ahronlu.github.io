@@ -7,20 +7,66 @@
     <meta name="theme-color" content="white" />
     <link rel="manifest" href="./manifest2.json" />
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon2.ico" />
-    <link rel="apple-touch-icon" href="/img/big-koftov2.png">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="apple-touch-icon" href="/ahronlu.png" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    />
     <title>Random Cat Pictures</title>
     <style>
-      * {margin: 0; padding: 0;}
-      body {background: #212121; font-family:Roboto, san-serif; color: white;}
-      h3, div {margin: 0 auto;text-align: center;display: flex;flex-direction: column;align-items: center;justify-content: center;}
-      h3 {width: 100%; height: 5vh; background:#212121;margin-bottom: 1vh;box-shadow: 0 2px 4px rgb(0 0 0 / 50%);}
-      @media (min-width: 1025px) {img{max-width: 50%;}}
-      .a {animation: pulse 1s infinite; }
-      @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.2 } 100% { opacity: 1; } }
-      p {text-align: center;}
-     </style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #212121;
+        font-family: Roboto, san-serif;
+        color: white;
+      }
+      h3,
+      div {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h3 {
+        width: 100%;
+        height: 5vh;
+        background: #212121;
+        margin-bottom: 1vh;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+      }
+      @media (min-width: 1025px) {
+        img {
+          max-width: 50%;
+        }
+      }
+      .a {
+        animation: pulse 1s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.2;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      p {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <div>
@@ -40,8 +86,7 @@
       const img = document.getElementsByTagName("img")[0];
       const button = document.getElementsByTagName("button")[0];
       const getPic = async () => {
-        img.src =
-          "loading.gif";
+        img.src = "loading.gif";
         img.classList.add("a");
         const res = await fetch("https://aws.random.cat/meow");
         const { file } = await res.json();
