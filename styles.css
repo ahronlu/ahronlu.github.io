@@ -15,16 +15,6 @@ h2 {
   font-size: 1.2em;
 }
 
-h3 {
-  color: #426696;
-  font-weight: 600;
-}
-
-p {
-  font-weight: 500;
-  font-size: 1em;
-}
-
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -108,15 +98,6 @@ main {
   border-radius: 10px;
 }
 
-.dashboard a:hover {
-  background: rgba(0, 0, 0, 0.3);
-  color: whitesmoke;
-}
-
-.link h2 {
-  padding: 0rem 2rem;
-}
-
 .fa-linkedin {
   color: #0077b5;
 }
@@ -167,18 +148,6 @@ main {
     padding: 1vw;
   }
 
-  .dashboard h1 {
-    font-size: 1em;
-  }
-
-  .dashboard h2 {
-    font-size: 1em;
-  }
-
-  .user img {
-    height: auto;
-  }
-
   .glass {
     flex-direction: column;
   }
@@ -187,14 +156,5 @@ main {
 @media (max-width: 600px) {
   .user img {
     width: 20vw;
-  }
-
-  .card {
-    margin: 1em 0;
-    width: 100%;
-  }
-
-  .actions a svg {
-    width: 0.5vw;
   }
 }
