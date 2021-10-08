@@ -28,15 +28,9 @@ main {
   color: #426696;
 }
 
-.user img {
-  width: 10vw;
-  height: auto;
-}
-
 .glass {
-  margin-top: 0.71vw;
+  margin-top: 0.5rem;
   background: white;
-
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -130,16 +124,7 @@ main {
 }
 
 @media (max-width: 1000px) {
-  .actions a svg {
-    width: 3vw;
-  }
-
-  .glass {
-    width: 98%;
-  }
-
   .dashboard {
-    padding: 1.5vw 0.5vw !important;
     justify-content: space-around;
   }
 
@@ -150,11 +135,5 @@ main {
 
   .glass {
     flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  .user img {
-    width: 20vw;
   }
 }
