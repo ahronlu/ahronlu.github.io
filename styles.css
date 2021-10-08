@@ -4,27 +4,14 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: #426696;
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #212121, #606060);
   display: flex;
+  color: #212121;
   align-items: center;
   justify-content: center;
-}
-
-h2 {
-  color: #426696;
 }
 
 .glass {
@@ -86,7 +73,7 @@ h2 {
 
 .skills {
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
 }
 
 svg {
