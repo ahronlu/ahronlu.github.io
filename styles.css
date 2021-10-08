@@ -122,18 +122,3 @@ main {
   display: flex;
   justify-content: center;
 }
-
-@media (max-width: 1000px) {
-  .dashboard {
-    justify-content: space-around;
-  }
-
-  .link {
-    margin: 0;
-    padding: 1vw;
-  }
-
-  .glass {
-    flex-direction: column;
-  }
-}
