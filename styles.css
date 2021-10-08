@@ -29,7 +29,6 @@ main {
 }
 
 .glass {
-  margin-top: 0.5rem;
   background: white;
   background: linear-gradient(
     to right bottom,
@@ -38,8 +37,6 @@ main {
   );
   border-radius: 2rem;
   z-index: 2;
-  backdrop-filter: blur(2rem);
-  display: flex;
 }
 
 .circle1,
@@ -67,9 +64,6 @@ main {
 }
 
 .dashboard {
-  padding-top: 1em;
-  flex: 0.8;
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,16 +89,12 @@ main {
   color: #25d366;
 }
 
-.link svg {
-  width: 2em;
-}
-
 .skills {
-  margin: 0.5rem auto 0;
+  margin: 0 auto;
   width: 70%;
 }
 
-.user svg {
+svg {
   width: 2rem;
   margin: 0.2rem;
 }
