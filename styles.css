@@ -84,6 +84,6 @@ svg {
 .links {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 180px;
   margin: 0 auto;
 }
