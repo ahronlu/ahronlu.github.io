@@ -50,6 +50,7 @@ main {
 }
 
 .dashboard {
+  padding: 24px;
   text-align: center;
   background: linear-gradient(
     to right bottom,
